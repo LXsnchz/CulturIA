@@ -1,0 +1,41 @@
+name: "CulturIA — Generar Trivia Diaria"
+
+on:
+  schedule:
+    # 23:00 UTC = 00:00 CET (Madrid, horario de invierno)
+    # En horario de verano (CEST), esto sería 01:00 Madrid.
+    # Si necesitas exactitud CEST, cambia a "22 * * *".
+    - cron: "0 23 * * *"
+  workflow_dispatch: # Permite ejecución manual desde la UI de GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Instalar dependencias
+        run: pip install google-genai
+
+      - name: 🤖 Generar trivia del día
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python generar_trivia.py
+
+      - name: 📤 Commit y push de cambios
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🧠 CulturIA: nuevo día de trivia generado automáticamente"
+          file_pattern: "historial.json"
+          commit_user_name: "CulturIA Bot"
+          commit_user_email: "culturia-bot@users.noreply.github.com"
+          commit_author: "CulturIA Bot <culturia-bot@users.noreply.github.com>"

@@ -1,0 +1,1674 @@
+[
+  {
+    "dia": 50,
+    "fecha": "2026-02-19",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué escultor español creó 'La Dama de Elche', considerada una de las obras maestras del arte ibérico?",
+        "opciones": [
+          "Es una obra anónima del arte ibérico",
+          "Pablo Gargallo",
+          "Eduardo Chillida"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿En qué ciudad española se celebra la famosa fiesta de 'Las Fallas'?",
+        "opciones": [
+          "Sevilla",
+          "Valencia",
+          "Barcelona"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El río Ebro es el río más largo de España.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Anda ya! Mi abuela con los ojos cerrados acertaría más que tú 👵😂"
+  },
+  {
+    "dia": 49,
+    "fecha": "2026-02-18",
+    "preguntas": [
+      {
+        "pregunta": "¿Quién pintó 'El Guernica'?",
+        "opciones": [
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "Francisco de Goya"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la comunidad autónoma más grande de España en superficie?",
+        "opciones": [
+          "Andalucía",
+          "Castilla y León",
+          "Castilla-La Mancha"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La tortilla española lleva tradicionalmente cebolla.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Ay manolete! Si no sabes esto no te dan el pasaporte 🥘😂"
+  },
+  {
+    "dia": 48,
+    "fecha": "2026-02-17",
+    "preguntas": [
+      {
+        "pregunta": "¿En qué año se celebraron los Juegos Olímpicos de Barcelona?",
+        "opciones": [
+          "1988",
+          "1992",
+          "1996"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el plato típico de la Comunidad Valenciana?",
+        "opciones": [
+          "Gazpacho",
+          "Paella",
+          "Cocido madrileño"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Cervantes nació en Alcalá de Henares.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¿Pero tú has ido al colegio o te mandaban a por churros? 🤦‍♂️😂"
+  },
+  {
+    "dia": 47,
+    "fecha": "2026-02-16",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué arquitecto diseñó la Sagrada Familia de Barcelona?",
+        "opciones": [
+          "Antoni Gaudí",
+          "Santiago Calatrava",
+          "Rafael Moneo"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el volcán más alto de España?",
+        "opciones": [
+          "Teide",
+          "Mulhacén",
+          "Aneto"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? España tiene más de 50 provincias.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "Con esas respuestas te deportan a las Islas Columbretes 🏝️😂"
+  },
+  {
+    "dia": 46,
+    "fecha": "2026-02-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué pintor español es conocido por sus relojes blandos?",
+        "opciones": [
+          "Joan Miró",
+          "Salvador Dalí",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la moneda que usaba España antes del euro?",
+        "opciones": [
+          "Peseta",
+          "Escudo",
+          "Lira"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿En qué comunidad autónoma está la ciudad de Mérida?",
+        "opciones": [
+          "Castilla-La Mancha",
+          "Andalucía",
+          "Extremadura"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Eso no lo falla ni mi cuñado después de la sobremesa! 🍷🤣"
+  },
+  {
+    "dia": 45,
+    "fecha": "2026-02-14",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué río pasa por Sevilla?",
+        "opciones": [
+          "Tajo",
+          "Guadalquivir",
+          "Duero"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Quién escribió 'La casa de Bernarda Alba'?",
+        "opciones": [
+          "Federico García Lorca",
+          "Antonio Machado",
+          "Miguel de Unamuno"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Las Islas Canarias están en el océano Atlántico.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "Hoy es San Valentín y tu cultura general te ha dejado plantado 💔😂🌹"
+  },
+  {
+    "dia": 44,
+    "fecha": "2026-02-13",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el deporte más popular de España?",
+        "opciones": [
+          "Baloncesto",
+          "Fútbol",
+          "Tenis"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué isla balear es la más grande?",
+        "opciones": [
+          "Menorca",
+          "Ibiza",
+          "Mallorca"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El flamenco es originario de Cataluña.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Tienes menos cultura que un yogur sin fecha de caducidad! 🫠😂"
+  },
+  {
+    "dia": 43,
+    "fecha": "2026-02-12",
+    "preguntas": [
+      {
+        "pregunta": "¿En qué ciudad se encuentra la Alhambra?",
+        "opciones": [
+          "Córdoba",
+          "Granada",
+          "Málaga"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuántas comunidades autónomas tiene España?",
+        "opciones": [
+          "15",
+          "17",
+          "19"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Quién fue el primer rey de España tras la dictadura franquista?",
+        "opciones": [
+          "Felipe VI",
+          "Juan Carlos I",
+          "Alfonso XIII"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "Te haría falta un GPS para encontrar España en un mapa 🗺️😂"
+  },
+  {
+    "dia": 42,
+    "fecha": "2026-02-11",
+    "preguntas": [
+      {
+        "pregunta": "¿De qué región es típico el cachopo?",
+        "opciones": [
+          "Asturias",
+          "Galicia",
+          "Cantabria"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué escritor español ganó el Nobel de Literatura en 1989?",
+        "opciones": [
+          "Camilo José Cela",
+          "Juan Ramón Jiménez",
+          "Vicente Aleixandre"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Madrid es la capital más alta de Europa.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "Cachopos por todas partes y tú sin enterarte... ¡Qué dolor! 🫕😭"
+  },
+  {
+    "dia": 41,
+    "fecha": "2026-02-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué selección española ganó el Mundial de fútbol en 2010?",
+        "opciones": [
+          "La sub-21",
+          "La absoluta masculina",
+          "La femenina"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿En qué siglo se terminó la Reconquista con la caída de Granada?",
+        "opciones": [
+          "Siglo XIV",
+          "Siglo XV",
+          "Siglo XVI"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la bebida típica de Asturias?",
+        "opciones": [
+          "Sidra",
+          "Txakolí",
+          "Cava"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "Iniesta marcó y tú ni te acuerdas... ¡Goool de cultura! ⚽😂"
+  },
+  {
+    "dia": 40,
+    "fecha": "2026-02-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el museo más visitado de España?",
+        "opciones": [
+          "Museo del Prado",
+          "Museo Reina Sofía",
+          "Museo Guggenheim"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿De dónde es originaria la fabada?",
+        "opciones": [
+          "Galicia",
+          "Asturias",
+          "País Vasco"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El Parque Nacional de Doñana está en Extremadura.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Hasta la lata de fabada sabe más que tú! 🫘😂"
+  },
+  {
+    "dia": 39,
+    "fecha": "2026-02-08",
+    "preguntas": [
+      {
+        "pregunta": "¿En qué ciudad española se celebran los Sanfermines?",
+        "opciones": [
+          "Pamplona",
+          "Bilbao",
+          "Logroño"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué compositor español escribió 'Asturias (Leyenda)'?",
+        "opciones": [
+          "Manuel de Falla",
+          "Isaac Albéniz",
+          "Enrique Granados"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la montaña más alta de la Península Ibérica?",
+        "opciones": [
+          "Aneto",
+          "Mulhacén",
+          "Teide"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "Corres menos que los toros de Pamplona pero en cultura general 🐂💨😂"
+  },
+  {
+    "dia": 38,
+    "fecha": "2026-02-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué comunidad autónoma tiene como lengua cooficial el euskera?",
+        "opciones": [
+          "Navarra y País Vasco",
+          "Cataluña",
+          "Galicia"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿En qué año empezó la Guerra Civil Española?",
+        "opciones": [
+          "1934",
+          "1936",
+          "1939"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El gazpacho andaluz se sirve caliente.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¿Gazpacho caliente? Con esas respuestas me da a mí calor 🥵🍅😂"
+  },
+  {
+    "dia": 37,
+    "fecha": "2026-02-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué famoso tenista español ha ganado más Roland Garros?",
+        "opciones": [
+          "Carlos Alcaraz",
+          "Rafael Nadal",
+          "David Ferrer"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del parlamento español?",
+        "opciones": [
+          "Las Cortes Generales",
+          "El Senado",
+          "El Congreso de la República"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿De qué provincias es típico el jamón ibérico de bellota?",
+        "opciones": [
+          "Huelva y Salamanca",
+          "Madrid y Toledo",
+          "Cádiz y Málaga"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "Nadal suda menos en una final que tú con estas preguntas 🎾😅"
+  },
+  {
+    "dia": 36,
+    "fecha": "2026-02-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué director español dirigió 'Todo sobre mi madre'?",
+        "opciones": [
+          "Alejandro Amenábar",
+          "Pedro Almodóvar",
+          "J.A. Bayona"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿En qué ciudad se encuentra la Giralda?",
+        "opciones": [
+          "Córdoba",
+          "Sevilla",
+          "Granada"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? España es el mayor productor de aceite de oliva del mundo.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Almodóvar haría un drama con tus respuestas! 🎬💃😂"
+  },
+  {
+    "dia": 35,
+    "fecha": "2026-02-04",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es la isla canaria más poblada?",
+        "opciones": [
+          "Gran Canaria",
+          "Tenerife",
+          "Lanzarote"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué rey firmó la Constitución Española de 1978?",
+        "opciones": [
+          "Felipe VI",
+          "Juan Carlos I",
+          "Alfonso XIII"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el gentilicio de los habitantes de Badajoz?",
+        "opciones": [
+          "Badajocenses",
+          "Pacenses",
+          "Badajoceños"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Te queda más lejos la cultura que Canarias de la Península! 🏝️📏😂"
+  },
+  {
+    "dia": 34,
+    "fecha": "2026-02-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué plato típico gallego se prepara con pulpo, pimentón y aceite?",
+        "opciones": [
+          "Pulpo a la gallega",
+          "Empanada gallega",
+          "Caldo gallego"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El Camino de Santiago termina en Barcelona.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Quién pintó 'Las Meninas'?",
+        "opciones": [
+          "El Greco",
+          "Diego Velázquez",
+          "Bartolomé Esteban Murillo"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Velázquez se revolcaría en su tumba viendo tus respuestas! 🎨💀😂"
+  },
+  {
+    "dia": 33,
+    "fecha": "2026-02-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es la fiesta de las Candelas o la Candelaria que se celebra el 2 de febrero?",
+        "opciones": [
+          "Fiesta de origen religioso, Presentación de Jesús en el Templo",
+          "Carnaval",
+          "Día de la Constitución"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿En qué comunidad autónoma está el Parque Nacional de Ordesa?",
+        "opciones": [
+          "Aragón",
+          "Navarra",
+          "Cataluña"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué cantante español es conocido como 'El Buki'?",
+        "opciones": [
+          "Raphael",
+          "Julio Iglesias",
+          "Ninguno, es mexicano"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Hoy es la Candelaria y tú ya necesitas que te iluminen! 🕯️🤣"
+  },
+  {
+    "dia": 32,
+    "fecha": "2026-02-01",
+    "preguntas": [
+      {
+        "pregunta": "¿De qué país fue colonia Filipinas antes de la Guerra de 1898?",
+        "opciones": [
+          "Portugal",
+          "España",
+          "Francia"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué instrumento es típico del flamenco?",
+        "opciones": [
+          "Guitarra española",
+          "Violín",
+          "Acordeón"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Ceuta y Melilla son ciudades autónomas españolas en África.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Febrero empieza y tu cultura ya va con retraso! 📅😂🧠"
+  },
+  {
+    "dia": 31,
+    "fecha": "2026-01-31",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el río más largo de España?",
+        "opciones": [
+          "Ebro",
+          "Tajo",
+          "Guadalquivir"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué comunidad autónoma tiene como capital Santiago de Compostela?",
+        "opciones": [
+          "Asturias",
+          "Galicia",
+          "Cantabria"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿En qué año entró España en la Unión Europea?",
+        "opciones": [
+          "1982",
+          "1986",
+          "1990"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Último día de enero y último en el ranking de cultura! 📉😂"
+  },
+  {
+    "dia": 30,
+    "fecha": "2026-01-30",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué región española es famosa por sus vinos de Rioja?",
+        "opciones": [
+          "Castilla-La Mancha",
+          "La Rioja",
+          "Navarra"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El Acueducto de Segovia fue construido por los árabes.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué pintor español nació en Málaga en 1881?",
+        "opciones": [
+          "Salvador Dalí",
+          "Joan Miró",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Confundir romanos con árabes es de nota! 🏛️🧱😂"
+  },
+  {
+    "dia": 29,
+    "fecha": "2026-01-29",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué es un 'botijo'?",
+        "opciones": [
+          "Un instrumento musical",
+          "Un recipiente de barro para mantener el agua fresca",
+          "Un dulce navideño"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la plaza de toros más grande de España?",
+        "opciones": [
+          "La Maestranza (Sevilla)",
+          "Las Ventas (Madrid)",
+          "La Misericordia (Zaragoza)"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿En qué ciudad está el Museo Guggenheim de España?",
+        "opciones": [
+          "Madrid",
+          "Barcelona",
+          "Bilbao"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Necesitas más agua del botijo para refrescar esa memoria! 🏺💧😂"
+  },
+  {
+    "dia": 28,
+    "fecha": "2026-01-28",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué santo patrón se celebra el 25 de julio en España?",
+        "opciones": [
+          "San Fermín",
+          "Santiago Apóstol",
+          "San Isidro"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El Estrecho de Gibraltar separa España de Francia.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuántos goles marcó la selección española en la final del Mundial 2010?",
+        "opciones": [
+          "1",
+          "2",
+          "3"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Gibraltar no está en Francia, eso hasta los ingleses lo saben! 🇬🇧🤦😂"
+  },
+  {
+    "dia": 27,
+    "fecha": "2026-01-27",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué comunidad autónoma es conocida por las 'fiestas del Pilar'?",
+        "opciones": [
+          "Aragón",
+          "Navarra",
+          "La Rioja"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué científico español descubrió la estructura de las neuronas?",
+        "opciones": [
+          "Severo Ochoa",
+          "Santiago Ramón y Cajal",
+          "Miguel Servet"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿De qué material está hecho el famoso 'Toro de Osborne'?",
+        "opciones": [
+          "Metal (chapa de acero)",
+          "Piedra",
+          "Madera"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Ramón y Cajal estudió neuronas, a ver si encuentras las tuyas! 🧠🔬😂"
+  },
+  {
+    "dia": 26,
+    "fecha": "2026-01-26",
+    "preguntas": [
+      {
+        "pregunta": "¿En qué comunidad autónoma está la Sierra de Grazalema?",
+        "opciones": [
+          "Andalucía",
+          "Extremadura",
+          "Castilla-La Mancha"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué es una 'zarzuela' en el contexto cultural español?",
+        "opciones": [
+          "Un tipo de danza",
+          "Un género de teatro musical",
+          "Un plato de mariscos"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Don Quijote lucha contra dragones.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Don Quijote luchaba contra molinos, no contra dragones! 🌬️😂📖"
+  },
+  {
+    "dia": 25,
+    "fecha": "2026-01-25",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué fiesta se celebra el 6 de enero en España?",
+        "opciones": [
+          "Nochebuena",
+          "Día de Reyes",
+          "Día de la Hispanidad"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la mayor exportación agrícola de España?",
+        "opciones": [
+          "Naranjas",
+          "Aceite de oliva",
+          "Vino"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué equipo de fútbol español juega en el Camp Nou?",
+        "opciones": [
+          "Real Madrid",
+          "FC Barcelona",
+          "Atlético de Madrid"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Hasta los Reyes Magos saben más que tú! 👑🐪😂"
+  },
+  {
+    "dia": 24,
+    "fecha": "2026-01-24",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué comunidad autónoma tiene la lengua cooficial gallego?",
+        "opciones": [
+          "Asturias",
+          "Galicia",
+          "Cantabria"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Toledo fue la antigua capital de España.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué torero español es considerado uno de los más grandes de la historia?",
+        "opciones": [
+          "Manolete",
+          "El Cordobés",
+          "José Tomás"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Manolete torearía mejor tus respuestas! 🐃🩸😂"
+  },
+  {
+    "dia": 23,
+    "fecha": "2026-01-23",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué ciudad española fue sede de la Expo 92?",
+        "opciones": [
+          "Barcelona",
+          "Madrid",
+          "Sevilla"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Cuál es el plato típico madrileño hecho con garbanzos?",
+        "opciones": [
+          "Fabada",
+          "Cocido madrileño",
+          "Pote asturiano"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Quién fue el dictador de España entre 1939 y 1975?",
+        "opciones": [
+          "Primo de Rivera",
+          "Francisco Franco",
+          "Carrero Blanco"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Ni con un cocido te entran las ideas en la cabeza! 🫕🧠😂"
+  },
+  {
+    "dia": 22,
+    "fecha": "2026-01-22",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué idioma cooficial se habla en la Comunidad Valenciana?",
+        "opciones": [
+          "Catalán/Valenciano",
+          "Gallego",
+          "Euskera"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿En qué año murió Francisco Franco?",
+        "opciones": [
+          "1973",
+          "1975",
+          "1978"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La sangría es de origen italiano.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡La sangría es española como tu falta de cultura! 🍷😂"
+  },
+  {
+    "dia": 21,
+    "fecha": "2026-01-21",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es la catedral gótica más grande del mundo, ubicada en España?",
+        "opciones": [
+          "Catedral de Burgos",
+          "Catedral de Sevilla",
+          "Catedral de León"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué premio literario español se entrega cada año el 23 de abril?",
+        "opciones": [
+          "Premio Planeta",
+          "Premio Cervantes",
+          "Premio Nadal"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿En qué archipiélago español está la isla de El Hierro?",
+        "opciones": [
+          "Baleares",
+          "Canarias",
+          "Columbretes"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Cervantes te dedicaría un capítulo de errores! 📚✍️😂"
+  },
+  {
+    "dia": 20,
+    "fecha": "2026-01-20",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué futbolista español es conocido como 'El Niño'?",
+        "opciones": [
+          "Andrés Iniesta",
+          "Fernando Torres",
+          "David Villa"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿De dónde es típico el 'pan con tomate' o 'pa amb tomàquet'?",
+        "opciones": [
+          "Andalucía",
+          "Cataluña",
+          "Galicia"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? España tiene frontera terrestre con Portugal y Francia.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡El Niño Torres metía goles, tú solo metes la pata! ⚽🦶😂"
+  },
+  {
+    "dia": 19,
+    "fecha": "2026-01-19",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué es un 'porrón'?",
+        "opciones": [
+          "Un tipo de sombrero",
+          "Un recipiente de vidrio para beber vino a chorro",
+          "Un instrumento musical"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la universidad más antigua de España?",
+        "opciones": [
+          "Universidad de Salamanca",
+          "Universidad Complutense de Madrid",
+          "Universidad de Barcelona"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿En qué siglo se construyó la Alhambra de Granada?",
+        "opciones": [
+          "Siglo X",
+          "Siglo XIII-XIV",
+          "Siglo XVI"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Con lo vieja que es Salamanca y tú sin saber nada! 🏛️📜😂"
+  },
+  {
+    "dia": 18,
+    "fecha": "2026-01-18",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué escultor español creó 'El Peine del Viento'?",
+        "opciones": [
+          "Eduardo Chillida",
+          "Pablo Gargallo",
+          "Julio González"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La paella original valenciana lleva marisco.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué ciudad vasca es famosa por su gastronomía y pintxos?",
+        "opciones": [
+          "Vitoria",
+          "San Sebastián",
+          "Bilbao"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Los valencianos te pegarían por ponerle marisco a la paella! 🥘🤬😂"
+  },
+  {
+    "dia": 17,
+    "fecha": "2026-01-17",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué día se celebra San Antón, patrón de los animales?",
+        "opciones": [
+          "17 de enero",
+          "15 de mayo",
+          "29 de junio"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Quién compuso 'El amor brujo'?",
+        "opciones": [
+          "Isaac Albéniz",
+          "Manuel de Falla",
+          "Joaquín Rodrigo"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el parque nacional más antiguo de España?",
+        "opciones": [
+          "Doñana",
+          "Picos de Europa",
+          "Ordesa y Monte Perdido"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Hoy se bendicen animales y tú necesitas que te bendigan la memoria! 🐶🙏😂"
+  },
+  {
+    "dia": 16,
+    "fecha": "2026-01-16",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué tipo de embutido es el 'chorizo ibérico'?",
+        "opciones": [
+          "Embutido curado de cerdo con pimentón",
+          "Salchicha fresca de ternera",
+          "Embutido ahumado de pollo"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es la población más al sur de la península ibérica?",
+        "opciones": [
+          "Málaga",
+          "Cádiz",
+          "Tarifa"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Las Islas Baleares incluyen Formentera.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Estás más perdido que un pulpo en un garaje! 🐙🅿️😂"
+  },
+  {
+    "dia": 15,
+    "fecha": "2026-01-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué monarca española unificó Castilla y Aragón mediante su matrimonio?",
+        "opciones": [
+          "Isabel I de Castilla",
+          "Juana la Loca",
+          "María Cristina"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿En q ciudad se encuentra el Teatro Romano mejor conservado de España?",
+        "opciones": [
+          "Tarragona",
+          "Mérida",
+          "Cartagena"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuántas estrellas Michelin tenía el restaurante 'El Bulli' de Ferran Adrià?",
+        "opciones": [
+          "1",
+          "2",
+          "3"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Ni Ferran Adrià podría condimentar tu falta de cultura! 👨‍🍳⭐😂"
+  },
+  {
+    "dia": 14,
+    "fecha": "2026-01-14",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál fue el primer país al que Cristóbal Colón llegó en 1492?",
+        "opciones": [
+          "Cuba",
+          "Las Bahamas (San Salvador)",
+          "Puerto Rico"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La jota es un baile típico de Aragón.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué tipo de queso español tiene denominación de origen Manchego?",
+        "opciones": [
+          "Queso de cabra",
+          "Queso de oveja",
+          "Queso de vaca"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Colón descubrió América y tú no descubres ni las respuestas! 🧭🌎😂"
+  },
+  {
+    "dia": 13,
+    "fecha": "2026-01-13",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué cantaor flamenco es conocido como 'Camarón de la Isla'?",
+        "opciones": [
+          "José Monge Cruz",
+          "Antonio Molina",
+          "Manolo Escobar"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el volcán activo más reciente que entró en erupción en España?",
+        "opciones": [
+          "Teide",
+          "Cumbre Vieja (Tajogaite)",
+          "Timanfaya"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿En qué año se aprobó la Constitución Española vigente?",
+        "opciones": [
+          "1975",
+          "1978",
+          "1982"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Camarón cantaba con arte y tú respondes sin arte ni parte! 🎤🦐😂"
+  },
+  {
+    "dia": 12,
+    "fecha": "2026-01-12",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué idioma se habla en la comarca del Valle de Arán?",
+        "opciones": [
+          "Catalán",
+          "Aranés (occitano)",
+          "Francés"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿De qué equipo de fútbol es el estadio Santiago Bernabéu?",
+        "opciones": [
+          "Atlético de Madrid",
+          "Real Madrid",
+          "Rayo Vallecano"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? España posee territorios en el norte de África.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Hasta el árbitro habría pitado falta a tus respuestas! 🟥⚽😂"
+  },
+  {
+    "dia": 11,
+    "fecha": "2026-01-11",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué famoso cuadro de Goya muestra los fusilamientos del 3 de mayo?",
+        "opciones": [
+          "La maja desnuda",
+          "Los fusilamientos del 3 de mayo",
+          "El coloso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la denominación de origen de los vinos espumosos catalanes?",
+        "opciones": [
+          "Champán",
+          "Cava",
+          "Prosecco"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué cadena montañosa separa España de Francia?",
+        "opciones": [
+          "Sierra Nevada",
+          "Los Pirineos",
+          "Sistema Central"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Goya pintó horrores y tú los respondes! 🎨😱😂"
+  },
+  {
+    "dia": 10,
+    "fecha": "2026-01-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué ciudad española es conocida como 'la ciudad de las tres culturas'?",
+        "opciones": [
+          "Córdoba",
+          "Toledo",
+          "Granada"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el postre típico catalán que se toma en la festividad de San Juan?",
+        "opciones": [
+          "Crema catalana",
+          "Torrijas",
+          "Coca de San Juan"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El río Tajo desemboca en Lisboa, Portugal.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Toledo tiene tres culturas y tú ninguna! 🏰📚😂"
+  },
+  {
+    "dia": 9,
+    "fecha": "2026-01-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué científico español ganó el Premio Nobel de Fisiología o Medicina en 1906?",
+        "opciones": [
+          "Severo Ochoa",
+          "Santiago Ramón y Cajal",
+          "Margarita Salas"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la comunidad autónoma uniprovincial más grande de España?",
+        "opciones": [
+          "Navarra",
+          "Asturias",
+          "Madrid"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué fiesta asturiana celebra la cosecha de la manzana para sidra?",
+        "opciones": [
+          "La Fiesta de la Sidra",
+          "Los Amagüestos",
+          "El Descenso del Sella"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Necesitas un Nobel en esfuerzo para mejorar esas respuestas! 🏅📉😂"
+  },
+  {
+    "dia": 8,
+    "fecha": "2026-01-08",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué estilo arquitectónico predomina en la Mezquita de Córdoba?",
+        "opciones": [
+          "Gótico",
+          "Arte islámico (califal)",
+          "Barroco"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la sierra donde se encuentra la estación de esquí de Sierra Nevada?",
+        "opciones": [
+          "Sistema Central",
+          "Cordillera Penibética",
+          "Pirineos"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El turrón de Jijona es blando.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Te has derretido como un turrón de Jijona al sol! 🍫☀️😂"
+  },
+  {
+    "dia": 7,
+    "fecha": "2026-01-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuántos reyes magos llegan según la tradición española?",
+        "opciones": [
+          "2",
+          "3",
+          "4"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué es el 'roscón de Reyes'?",
+        "opciones": [
+          "Un dulce típico del 6 de enero en forma de rosca",
+          "Un embutido navideño",
+          "Un pan de pueblo tradicional"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué actriz española ganó un Óscar por 'Vicky Cristina Barcelona'?",
+        "opciones": [
+          "Penélope Cruz",
+          "Paz Vega",
+          "Carmen Maura"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡El día después de Reyes y ya sin magia ni cultura! 👑✨😂"
+  },
+  {
+    "dia": 6,
+    "fecha": "2026-01-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Cómo se llaman los tres Reyes Magos según la tradición española?",
+        "opciones": [
+          "Melchor, Gaspar y Baltasar",
+          "Pedro, Juan y Santiago",
+          "Luis, Carlos y Felipe"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? En España, los regalos de Navidad se dan principalmente el 6 de enero.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué obra de Velázquez se conoce como 'La rendición de Breda'?",
+        "opciones": [
+          "Las Lanzas",
+          "Las Hilanderas",
+          "El aguador de Sevilla"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Los Reyes te van a traer un libro de cultura general! 📖👑😂"
+  },
+  {
+    "dia": 5,
+    "fecha": "2026-01-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué se celebra la noche del 5 de enero en España?",
+        "opciones": [
+          "Nochebuena",
+          "Cabalgata de Reyes",
+          "San Silvestre"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué comunidad autónoma es conocida por el 'lechazo asado'?",
+        "opciones": [
+          "Castilla y León",
+          "Cataluña",
+          "Murcia"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del himno oficial de España?",
+        "opciones": [
+          "Marcha Real",
+          "Canto de la Patria",
+          "Himno de Riego"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡La Cabalgata pasó por tu puerta pero la cultura no entró! 🐫👑😂"
+  },
+  {
+    "dia": 4,
+    "fecha": "2026-01-04",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué famoso explorador español dio la primera vuelta al mundo?",
+        "opciones": [
+          "Cristóbal Colón",
+          "Juan Sebastián Elcano",
+          "Vasco da Gama"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El sistema de gobierno en España es una monarquía parlamentaria.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Qué pintor cretense es considerado un maestro del arte español del Siglo de Oro?",
+        "opciones": [
+          "El Greco",
+          "Zurbarán",
+          "Ribera"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Elcano dio la vuelta al mundo y tú no das ni con la respuesta! 🌍🚢😂"
+  },
+  {
+    "dia": 3,
+    "fecha": "2026-01-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué marca de automóviles es de origen español?",
+        "opciones": [
+          "Fiat",
+          "SEAT",
+          "Renault"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿En qué ciudad se encuentra la Torre del Oro?",
+        "opciones": [
+          "Madrid",
+          "Sevilla",
+          "Zaragoza"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Qué dulce navideño típico se elabora con almendra y azúcar en forma de figuritas?",
+        "opciones": [
+          "Turrón",
+          "Mazapán",
+          "Polvorón"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Estás más dulce que un mazapán pero sin sustancia! 🍬🤷😂"
+  },
+  {
+    "dia": 2,
+    "fecha": "2026-01-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuántas uvas se comen en Nochevieja según la tradición española?",
+        "opciones": [
+          "10",
+          "12",
+          "15"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? Cada uva de Nochevieja representa un deseo para cada mes del año.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Desde qué edificio se retransmiten las campanadas de Nochevieja más famosas de España?",
+        "opciones": [
+          "Palacio Real",
+          "Puerta del Sol",
+          "Plaza Mayor"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Se te atragantaron las uvas y también las respuestas! 🍇🫠😂"
+  },
+  {
+    "dia": 1,
+    "fecha": "2026-01-01",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué día se celebra el Año Nuevo en España?",
+        "opciones": [
+          "31 de diciembre",
+          "1 de enero",
+          "6 de enero"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es la tradición de vestir ropa interior de un color específico en Nochevieja para atraer la suerte?",
+        "opciones": [
+          "Roja",
+          "Verde",
+          "Azul"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? España tiene 4 idiomas cooficiales además del castellano.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Empezamos el año y ya fallas! ¿Te pusiste la ropa interior roja al menos? 🩲🔴😂"
+  }
+]

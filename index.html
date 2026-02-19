@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CulturIA — Trivia Diaria de Cultura Española</title>
+    <meta name="description"
+        content="CulturIA: Trivia diaria de cultura general española generada por IA. 3 preguntas nuevas cada día. ¿Cuánto sabes de España?">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#FFF7ED',
+                            100: '#FFEDD5',
+                            200: '#FED7AA',
+                            300: '#FDBA74',
+                            400: '#FB923C',
+                            500: '#F97316',
+                            600: '#EA580C',
+                            700: '#C2410C',
+                            800: '#9A3412',
+                            900: '#7C2D12',
+                            950: '#431407',
+                        },
+                        surface: {
+                            50: '#FAFAF9',
+                            100: '#F5F5F4',
+                            200: '#E7E5E4',
+                            700: '#44403C',
+                            800: '#292524',
+                            900: '#1C1917',
+                            950: '#0C0A09',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1C1917 0%, #292524 50%, #1C1917 100%);
+            min-height: 100vh;
+        }
+
+        /* Animated gradient background */
+        .bg-animated {
+            background: linear-gradient(-45deg, #431407, #1C1917, #7C2D12, #292524);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Glass card */
+        .glass {
+            background: rgba(41, 37, 36, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(253, 186, 116, 0.1);
+        }
+
+        .glass-light {
+            background: rgba(68, 64, 60, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(253, 186, 116, 0.08);
+        }
+
+        /* Option buttons */
+        .option-btn {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .option-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(249, 115, 22, 0.15), rgba(249, 115, 22, 0.05));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .option-btn:hover::before {
+            opacity: 1;
+        }
+
+        .option-btn:hover {
+            border-color: rgba(249, 115, 22, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(249, 115, 22, 0.15);
+        }
+
+        .option-btn.correct {
+            border-color: #22C55E !important;
+            background: rgba(34, 197, 94, 0.15) !important;
+            box-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+        }
+
+        .option-btn.incorrect {
+            border-color: #EF4444 !important;
+            background: rgba(239, 68, 68, 0.15) !important;
+            box-shadow: 0 0 20px rgba(239, 68, 68, 0.2);
+        }
+
+        .option-btn.disabled {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        /* Fade in animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Slide up */
+        .slide-up {
+            animation: slideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Bounce in */
+        .bounce-in {
+            animation: bounceIn 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+        }
+
+        @keyframes bounceIn {
+            from {
+                opacity: 0;
+                transform: scale(0.3);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Pulse glow */
+        .pulse-glow {
+            animation: pulseGlow 2s ease-in-out infinite;
+        }
+
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 15px rgba(249, 115, 22, 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 30px rgba(249, 115, 22, 0.6);
+            }
+        }
+
+        /* Shake animation for wrong answers */
+        .shake {
+            animation: shake 0.5s ease-in-out;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            10%,
+            50%,
+            90% {
+                transform: translateX(-4px);
+            }
+
+            30%,
+            70% {
+                transform: translateX(4px);
+            }
+        }
+
+        /* Confetti particle */
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            border-radius: 2px;
+            pointer-events: none;
+            z-index: 9999;
+            animation: confettiFall 3s ease-out forwards;
+        }
+
+        @keyframes confettiFall {
+            0% {
+                opacity: 1;
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateY(100vh) rotate(720deg);
+            }
+        }
+
+        /* Progress bar */
+        .progress-fill {
+            transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Historic day card */
+        .day-card {
+            transition: all 0.3s ease;
+        }
+
+        .day-card:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 12px 40px rgba(249, 115, 22, 0.2);
+            border-color: rgba(249, 115, 22, 0.4);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(249, 115, 22, 0.3);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(249, 115, 22, 0.5);
+        }
+
+        /* Custom utilities */
+        .text-gradient {
+            background: linear-gradient(135deg, #FB923C, #F97316, #EA580C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .border-glow {
+            box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.2), 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Screen transitions */
+        .screen {
+            display: none !important;
+        }
+
+        .screen.active {
+            display: block !important;
+        }
+
+        /* Centered screens (loading, error) */
+        .screen-centered {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 70vh;
+        }
+
+        .screen-centered:not(.active) {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body class="bg-animated text-stone-200 antialiased">
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- HEADER -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass border-b border-brand-900/30">
+        <div class="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
+            <button id="btn-home" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                <span class="text-2xl">🧠</span>
+                <h1 class="text-xl font-extrabold text-gradient tracking-tight">CulturIA</h1>
+            </button>
+            <div class="flex items-center gap-3">
+                <span id="header-day"
+                    class="text-xs font-semibold text-brand-400 bg-brand-950/60 px-3 py-1 rounded-full border border-brand-800/30"></span>
+                <button id="btn-history" class="p-2 rounded-lg glass-light hover:border-brand-500/30 transition-all"
+                    title="Ver historial">
+                    <svg class="w-5 h-5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-2xl mx-auto px-4 pt-20 pb-12 min-h-screen">
+
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <!-- LOADING SCREEN -->
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <div id="screen-loading" class="screen active screen-centered">
+            <div class="text-6xl mb-6 bounce-in">🧠</div>
+            <p class="text-brand-400 font-semibold text-lg">Cargando trivia...</p>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <!-- WELCOME / QUIZ SCREEN -->
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <div id="screen-quiz" class="screen">
+            <!-- Day info -->
+            <div class="text-center mb-8 slide-up">
+                <div
+                    class="inline-flex items-center gap-2 bg-brand-950/50 border border-brand-800/30 rounded-full px-4 py-1.5 mb-4">
+                    <span class="text-sm">📅</span>
+                    <span id="quiz-date" class="text-sm font-medium text-brand-300"></span>
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-2">
+                    Trivia del <span class="text-gradient" id="quiz-day-title">Día</span>
+                </h2>
+                <p class="text-stone-400 text-sm">Responde las 3 preguntas sobre cultura española</p>
+            </div>
+
+            <!-- Progress -->
+            <div class="mb-8">
+                <div class="flex justify-between text-xs text-stone-500 mb-2">
+                    <span>Progreso</span>
+                    <span id="quiz-progress-text">0 / 3</span>
+                </div>
+                <div class="h-1.5 bg-surface-800 rounded-full overflow-hidden">
+                    <div id="quiz-progress-bar"
+                        class="progress-fill h-full bg-gradient-to-r from-brand-500 to-brand-400 rounded-full"
+                        style="width:0%"></div>
+                </div>
+            </div>
+
+            <!-- Question Cards Container -->
+            <div id="questions-container" class="space-y-6"></div>
+
+            <!-- Submit Button -->
+            <div id="submit-section" class="mt-8 text-center hidden">
+                <button id="btn-submit"
+                    class="px-8 py-3.5 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-500 hover:to-brand-400 text-white font-bold rounded-xl transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-brand-500/25 pulse-glow">
+                    Ver Resultados 🎯
+                </button>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <!-- RESULTS SCREEN -->
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <div id="screen-results" class="screen">
+            <div class="text-center slide-up">
+                <!-- Score circle -->
+                <div class="relative inline-flex items-center justify-center w-40 h-40 mb-6">
+                    <svg class="w-40 h-40 transform -rotate-90" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(68,64,60,0.4)" stroke-width="8" />
+                        <circle id="score-circle" cx="60" cy="60" r="52" fill="none" stroke-width="8"
+                            stroke-linecap="round" stroke-dasharray="326.7" stroke-dashoffset="326.7"
+                            style="transition: stroke-dashoffset 1.5s cubic-bezier(0.4,0,0.2,1) 0.3s" />
+                    </svg>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center">
+                        <span id="score-number" class="text-4xl font-black text-white">0</span>
+                        <span class="text-sm text-stone-400 font-medium">de 3</span>
+                    </div>
+                </div>
+
+                <h2 id="result-title" class="text-2xl sm:text-3xl font-extrabold text-white mb-3"></h2>
+                <p id="result-message" class="text-lg text-stone-300 mb-8 max-w-md mx-auto leading-relaxed"></p>
+
+                <!-- Share buttons -->
+                <div class="flex flex-col sm:flex-row gap-3 justify-center mb-8">
+                    <button id="btn-share-wa"
+                        class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366]/20 border border-[#25D366]/30 text-[#25D366] font-semibold rounded-xl hover:bg-[#25D366]/30 transition-all">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        WhatsApp
+                    </button>
+                    <button id="btn-share-tw"
+                        class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#1DA1F2]/20 border border-[#1DA1F2]/30 text-[#1DA1F2] font-semibold rounded-xl hover:bg-[#1DA1F2]/30 transition-all">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                        Twitter / X
+                    </button>
+                    <button id="btn-share-copy"
+                        class="inline-flex items-center justify-center gap-2 px-6 py-3 glass-light text-stone-300 font-semibold rounded-xl hover:text-white transition-all">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                        </svg>
+                        Copiar
+                    </button>
+                </div>
+
+                <!-- Action buttons -->
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <button id="btn-play-again"
+                        class="px-6 py-3 bg-gradient-to-r from-brand-600 to-brand-500 text-white font-bold rounded-xl hover:from-brand-500 hover:to-brand-400 transition-all transform hover:scale-105 hidden">
+                        🔄 Volver a jugar
+                    </button>
+                    <button id="btn-to-history"
+                        class="px-6 py-3 glass-light text-stone-300 font-semibold rounded-xl hover:text-white transition-all">
+                        📅 Ver historial
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <!-- HISTORY SCREEN -->
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <div id="screen-history" class="screen">
+            <div class="slide-up">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white">📅 Historial</h2>
+                    <button id="btn-back-from-history"
+                        class="px-4 py-2 glass-light text-stone-400 text-sm font-semibold rounded-lg hover:text-white transition-all">
+                        ← Volver
+                    </button>
+                </div>
+                <p class="text-stone-400 text-sm mb-6">Selecciona un día para jugar su trivia:</p>
+                <div id="history-list" class="grid gap-3"></div>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <!-- ERROR SCREEN -->
+        <!-- ══════════════════════════════════════════════════════════ -->
+        <div id="screen-error" class="screen screen-centered">
+            <div class="text-6xl mb-6">😵</div>
+            <h2 class="text-2xl font-bold text-white mb-2">¡Vaya!</h2>
+            <p class="text-stone-400 text-center max-w-sm">No se pudo cargar la trivia. Comprueba que el archivo <code
+                    class="text-brand-400">historial.json</code> existe y recarga la página.</p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-stone-600 text-xs">
+        <p>CulturIA · Trivia diaria generada con IA · <span class="text-brand-700">Coste: 0€</span></p>
+    </footer>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- JAVASCRIPT -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <script>
+            (() => {
+                'use strict';
+
+                // ── State ──────────────────────────────────────────────
+                let historial = [];
+                let currentDay = null;
+                let currentDayIndex = 0;
+                let answers = {};       // { questionIndex: selectedOptionIndex }
+                let isSubmitted = false;
+                let isHistoricDay = false;
+
+                // ── DOM refs ───────────────────────────────────────────
+                const $ = (sel) => document.querySelector(sel);
+                const $$ = (sel) => document.querySelectorAll(sel);
+
+                const screens = {
+                    loading: $('#screen-loading'),
+                    quiz: $('#screen-quiz'),
+                    results: $('#screen-results'),
+                    history: $('#screen-history'),
+                    error: $('#screen-error'),
+                };
+
+                // ── Helpers ────────────────────────────────────────────
+                function showScreen(name) {
+                    Object.values(screens).forEach(s => {
+                        s.classList.remove('active');
+                        s.style.display = 'none';
+                    });
+                    screens[name].classList.add('active');
+                    screens[name].style.display = '';
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+
+                function formatDate(dateStr) {
+                    const d = new Date(dateStr + 'T00:00:00');
+                    return d.toLocaleDateString('es-ES', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                }
+
+                function getShareURL() {
+                    return window.location.href.split('?')[0].split('#')[0];
+                }
+
+                // ── Confetti ───────────────────────────────────────────
+                function launchConfetti() {
+                    const colors = ['#F97316', '#FB923C', '#FBBF24', '#22C55E', '#3B82F6', '#EF4444'];
+                    for (let i = 0; i < 60; i++) {
+                        const el = document.createElement('div');
+                        el.classList.add('confetti');
+                        el.style.left = Math.random() * 100 + 'vw';
+                        el.style.top = '-10px';
+                        el.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                        el.style.animationDelay = Math.random() * 1.5 + 's';
+                        el.style.animationDuration = (2 + Math.random() * 2) + 's';
+                        el.style.width = (6 + Math.random() * 8) + 'px';
+                        el.style.height = (6 + Math.random() * 8) + 'px';
+                        document.body.appendChild(el);
+                        setTimeout(() => el.remove(), 5000);
+                    }
+                }
+
+                // ── Load Data ──────────────────────────────────────────
+                async function loadHistorial() {
+                    try {
+                        const res = await fetch('historial.json?t=' + Date.now());
+                        if (!res.ok) throw new Error('HTTP ' + res.status);
+                        historial = await res.json();
+                        if (!historial.length) throw new Error('Historial vacío');
+                        // Remove loading screen from DOM entirely
+                        screens.loading.remove();
+                        startQuiz(0, false);
+                    } catch (err) {
+                        console.error('Error loading historial:', err);
+                        showScreen('error');
+                    }
+                }
+
+                // ── Quiz Logic ─────────────────────────────────────────
+                function startQuiz(dayIndex, historic = false) {
+                    currentDayIndex = dayIndex;
+                    currentDay = historial[dayIndex];
+                    isHistoricDay = historic;
+                    answers = {};
+                    isSubmitted = false;
+
+                    // Header
+                    $('#header-day').textContent = `Día #${currentDay.dia}`;
+                    $('#quiz-date').textContent = formatDate(currentDay.fecha);
+                    $('#quiz-day-title').textContent = `Día #${currentDay.dia}`;
+
+                    // Progress
+                    updateProgress();
+
+                    // Render questions
+                    renderQuestions();
+
+                    // Show/hide submit
+                    $('#submit-section').classList.add('hidden');
+
+                    // Show play again button for historic days
+                    const playAgainBtn = $('#btn-play-again');
+                    if (historic) {
+                        playAgainBtn.classList.remove('hidden');
+                    } else {
+                        playAgainBtn.classList.add('hidden');
+                    }
+
+                    showScreen('quiz');
+                }
+
+                function renderQuestions() {
+                    const container = $('#questions-container');
+                    container.innerHTML = '';
+
+                    currentDay.preguntas.forEach((q, qIdx) => {
+                        const card = document.createElement('div');
+                        card.className = 'glass rounded-2xl p-6 border-glow fade-in';
+                        card.style.animationDelay = (qIdx * 0.15) + 's';
+
+                        const qNum = document.createElement('div');
+                        qNum.className = 'flex items-center gap-2 mb-3';
+                        qNum.innerHTML = `
+                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-brand-500/20 text-brand-400 text-xs font-bold">${qIdx + 1}</span>
+                    <span class="text-xs text-stone-500 font-medium uppercase tracking-wider">Pregunta ${qIdx + 1} de 3</span>
+                `;
+
+                        const qText = document.createElement('h3');
+                        qText.className = 'text-white font-semibold text-base sm:text-lg mb-4 leading-relaxed';
+                        qText.textContent = q.pregunta;
+
+                        const opts = document.createElement('div');
+                        opts.className = 'space-y-2.5';
+
+                        q.opciones.forEach((opt, optIdx) => {
+                            const btn = document.createElement('button');
+                            btn.className = 'option-btn w-full text-left px-4 py-3 rounded-xl border border-stone-700/50 bg-surface-800/40 text-stone-300 font-medium text-sm sm:text-base flex items-center gap-3';
+                            btn.dataset.question = qIdx;
+                            btn.dataset.option = optIdx;
+
+                            const letter = document.createElement('span');
+                            letter.className = 'inline-flex items-center justify-center w-7 h-7 rounded-lg bg-surface-700/60 text-stone-400 text-xs font-bold flex-shrink-0';
+                            letter.textContent = String.fromCharCode(65 + optIdx); // A, B, C
+
+                            const text = document.createElement('span');
+                            text.textContent = opt;
+
+                            btn.appendChild(letter);
+                            btn.appendChild(text);
+                            btn.addEventListener('click', () => selectOption(qIdx, optIdx));
+                            opts.appendChild(btn);
+                        });
+
+                        card.appendChild(qNum);
+                        card.appendChild(qText);
+                        card.appendChild(opts);
+                        container.appendChild(card);
+                    });
+                }
+
+                function selectOption(questionIdx, optionIdx) {
+                    if (isSubmitted) return;
+
+                    answers[questionIdx] = optionIdx;
+
+                    // Update visual state for this question
+                    const btns = $$(`[data-question="${questionIdx}"]`);
+                    btns.forEach(btn => {
+                        const oi = parseInt(btn.dataset.option);
+                        btn.classList.remove('border-brand-500', 'bg-brand-500/15', 'text-white');
+                        btn.classList.add('border-stone-700/50', 'text-stone-300');
+                        if (oi === optionIdx) {
+                            btn.classList.remove('border-stone-700/50', 'text-stone-300');
+                            btn.classList.add('border-brand-500', 'bg-brand-500/15', 'text-white');
+                        }
+                    });
+
+                    updateProgress();
+
+                    // Check if all answered
+                    if (Object.keys(answers).length === currentDay.preguntas.length) {
+                        $('#submit-section').classList.remove('hidden');
+                        $('#submit-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }
+
+                function updateProgress() {
+                    const answered = Object.keys(answers).length;
+                    const total = currentDay.preguntas.length;
+                    $('#quiz-progress-text').textContent = `${answered} / ${total}`;
+                    $('#quiz-progress-bar').style.width = `${(answered / total) * 100}%`;
+                }
+
+                function submitQuiz() {
+                    isSubmitted = true;
+                    let score = 0;
+
+                    currentDay.preguntas.forEach((q, qIdx) => {
+                        const correct = q.respuesta_correcta;
+                        const selected = answers[qIdx];
+                        const btns = $$(`[data-question="${qIdx}"]`);
+
+                        btns.forEach(btn => {
+                            const oi = parseInt(btn.dataset.option);
+                            btn.classList.add('disabled');
+                            btn.classList.remove('border-brand-500', 'bg-brand-500/15');
+
+                            if (oi === correct) {
+                                btn.classList.add('correct');
+                            }
+                            if (oi === selected && selected !== correct) {
+                                btn.classList.add('incorrect', 'shake');
+                            }
+                        });
+
+                        if (selected === correct) score++;
+                    });
+
+                    // Short delay then show results
+                    setTimeout(() => showResults(score), 1200);
+                }
+
+                // ── Results ────────────────────────────────────────────
+                function showResults(score) {
+                    showScreen('results');
+
+                    // Score circle animation
+                    const circle = $('#score-circle');
+                    const circumference = 326.7;
+                    const offset = circumference - (score / 3) * circumference;
+
+                    const colors = {
+                        0: '#EF4444',
+                        1: '#F97316',
+                        2: '#FBBF24',
+                        3: '#22C55E',
+                    };
+
+                    circle.style.stroke = colors[score];
+                    circle.style.strokeDashoffset = offset;
+                    $('#score-number').textContent = score;
+
+                    // Title & message
+                    const resultTitle = $('#result-title');
+                    const resultMessage = $('#result-message');
+
+                    if (score === 3) {
+                        resultTitle.textContent = '🎉 ¡Perfecto!';
+                        resultMessage.textContent = '¡Eres un genio de la cultura española! ¡3 de 3! Enhorabuena, eres el orgullo de España. 🇪🇸🏆';
+                        launchConfetti();
+                    } else if (score === 2) {
+                        resultTitle.textContent = '😏 ¡Casi perfecto!';
+                        resultMessage.textContent = currentDay.mensaje_burla;
+                    } else if (score === 1) {
+                        resultTitle.textContent = '😬 Mejorable...';
+                        resultMessage.textContent = currentDay.mensaje_burla;
+                    } else {
+                        resultTitle.textContent = '💀 ¡Desastre total!';
+                        resultMessage.textContent = currentDay.mensaje_burla;
+                    }
+
+                    // Reset circle for re-animation
+                    requestAnimationFrame(() => {
+                        circle.style.strokeDashoffset = circumference;
+                        requestAnimationFrame(() => {
+                            circle.style.strokeDashoffset = offset;
+                        });
+                    });
+                }
+
+                // ── Share ──────────────────────────────────────────────
+                function getShareText(score) {
+                    const url = getShareURL();
+                    return `CulturIA Día #${currentDay.dia}: ${score}/3 aciertos 🧠🥘. ¿Puedes superarme? ${url}`;
+                }
+
+                // ── History ────────────────────────────────────────────
+                function renderHistory() {
+                    const list = $('#history-list');
+                    list.innerHTML = '';
+
+                    historial.forEach((day, idx) => {
+                        const card = document.createElement('button');
+                        card.className = 'day-card glass rounded-xl p-4 text-left border border-stone-700/30 w-full flex items-center gap-4 fade-in';
+                        card.style.animationDelay = (Math.min(idx, 15) * 0.04) + 's';
+
+                        const isToday = idx === 0;
+
+                        card.innerHTML = `
+                    <div class="flex-shrink-0 w-12 h-12 rounded-xl ${isToday ? 'bg-gradient-to-br from-brand-500 to-brand-600' : 'bg-surface-700/60'} flex items-center justify-center">
+                        <span class="font-bold ${isToday ? 'text-white' : 'text-stone-400'} text-sm">#${day.dia}</span>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <p class="font-semibold ${isToday ? 'text-brand-400' : 'text-stone-300'} text-sm truncate">
+                            ${isToday ? '🔥 Hoy — ' : ''}Día #${day.dia}
+                        </p>
+                        <p class="text-stone-500 text-xs mt-0.5">${formatDate(day.fecha)}</p>
+                    </div>
+                    <svg class="w-5 h-5 text-stone-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                `;
+
+                        card.addEventListener('click', () => {
+                            startQuiz(idx, idx !== 0);
+                        });
+
+                        list.appendChild(card);
+                    });
+
+                    showScreen('history');
+                }
+
+                // ── Event Listeners ────────────────────────────────────
+                $('#btn-submit').addEventListener('click', submitQuiz);
+
+                $('#btn-history').addEventListener('click', renderHistory);
+                $('#btn-to-history').addEventListener('click', renderHistory);
+                $('#btn-back-from-history').addEventListener('click', () => {
+                    startQuiz(0, false);
+                });
+
+                $('#btn-home').addEventListener('click', () => {
+                    startQuiz(0, false);
+                });
+
+                $('#btn-play-again').addEventListener('click', () => {
+                    startQuiz(currentDayIndex, isHistoricDay);
+                });
+
+                // Share buttons
+                $('#btn-share-wa').addEventListener('click', () => {
+                    const score = parseInt($('#score-number').textContent);
+                    const text = encodeURIComponent(getShareText(score));
+                    window.open(`https://wa.me/?text=${text}`, '_blank');
+                });
+
+                $('#btn-share-tw').addEventListener('click', () => {
+                    const score = parseInt($('#score-number').textContent);
+                    const text = encodeURIComponent(getShareText(score));
+                    window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+                });
+
+                $('#btn-share-copy').addEventListener('click', async () => {
+                    const score = parseInt($('#score-number').textContent);
+                    const text = getShareText(score);
+                    try {
+                        await navigator.clipboard.writeText(text);
+                        const btn = $('#btn-share-copy');
+                        const orig = btn.innerHTML;
+                        btn.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> ¡Copiado!`;
+                        btn.classList.add('text-green-400', 'border-green-400/30');
+                        setTimeout(() => {
+                            btn.innerHTML = orig;
+                            btn.classList.remove('text-green-400', 'border-green-400/30');
+                        }, 2000);
+                    } catch {
+                        prompt('Copia este texto:', text);
+                    }
+                });
+
+                // ── Init ───────────────────────────────────────────────
+                loadHistorial();
+            })();
+    </script>
+</body>
+
+</html>
