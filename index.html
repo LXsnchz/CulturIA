@@ -321,7 +321,7 @@
     </style>
 </head>
 
-<body class="bg-animated text-stone-200 antialiased">
+<body class="bg-animated text-stone-200 antialiased overflow-hidden">
 
     <!-- ══════════════════════════════════════════════════════════ -->
     <!-- HEADER -->
@@ -349,11 +349,12 @@
     <main class="max-w-2xl mx-auto px-4 pt-20 pb-12 min-h-screen">
 
         <!-- ══════════════════════════════════════════════════════════ -->
-        <!-- LOADING SCREEN -->
+        <!-- INIT LOADER (Anti-FOUC) -->
         <!-- ══════════════════════════════════════════════════════════ -->
-        <div id="screen-loading" class="screen active screen-centered">
-            <div class="text-6xl mb-6 bounce-in">🧠</div>
-            <p class="text-brand-400 font-semibold text-lg">Cargando trivia...</p>
+        <div id="init-loader"
+            class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-animated transition-opacity duration-300">
+            <div class="text-7xl mb-6 bounce-in">🧠</div>
+            <p class="text-brand-400 font-bold text-xl tracking-widest">Cargando...</p>
         </div>
 
         <!-- ══════════════════════════════════════════════════════════ -->
@@ -467,8 +468,13 @@
         <!-- ══════════════════════════════════════════════════════════ -->
         <div id="screen-history" class="screen">
             <div class="slide-up">
-                <div class="flex items-center justify-between mb-6">
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white">📅 Historial</h2>
+                <div class="flex items-center justify-between mb-6 flex-wrap gap-4">
+                    <div class="flex items-center gap-3">
+                        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">📅 Historial</h2>
+                        <button id="btn-clear-progress"
+                            class="text-xs px-2.5 py-1 rounded bg-surface-800 border border-red-500/30 text-red-400 hover:bg-red-500/10 transition-colors hidden">Borrar
+                            progreso</button>
+                    </div>
                     <button id="btn-back-from-history"
                         class="px-4 py-2 glass-light text-stone-400 text-sm font-semibold rounded-lg hover:text-white transition-all">
                         ← Volver
@@ -511,12 +517,30 @@
                 let isSubmitted = false;
                 let isHistoricDay = false;
 
+                // ── Progress State ──────────────────────────────────────
+                const PROGRESS_KEY = 'CULTURIA_PROGRESS';
+                let completedDays = JSON.parse(localStorage.getItem(PROGRESS_KEY) || '[]');
+
+                function saveProgress(dayNumber) {
+                    if (!completedDays.includes(dayNumber)) {
+                        completedDays.push(dayNumber);
+                        localStorage.setItem(PROGRESS_KEY, JSON.stringify(completedDays));
+                    }
+                }
+
+                function updateClearButtonVisibility() {
+                    const btn = $('#btn-clear-progress');
+                    if (btn) {
+                        if (completedDays.length > 0) btn.classList.remove('hidden');
+                        else btn.classList.add('hidden');
+                    }
+                }
+
                 // ── DOM refs ───────────────────────────────────────────
                 const $ = (sel) => document.querySelector(sel);
                 const $$ = (sel) => document.querySelectorAll(sel);
 
                 const screens = {
-                    loading: $('#screen-loading'),
                     quiz: $('#screen-quiz'),
                     results: $('#screen-results'),
                     history: $('#screen-history'),
@@ -561,19 +585,39 @@
                     }
                 }
 
-                // ── Load Data ──────────────────────────────────────────
-                async function loadHistorial() {
+                // ── Load Data & Init Loader ────────────────────────────
+                async function initApp() {
+                    const start = Date.now();
                     try {
                         const res = await fetch('historial.json?t=' + Date.now());
                         if (!res.ok) throw new Error('HTTP ' + res.status);
                         historial = await res.json();
                         if (!historial.length) throw new Error('Historial vacío');
-                        // Remove loading screen from DOM entirely
-                        screens.loading.remove();
-                        startQuiz(0, false);
+
+                        // Exact duration logic (min 500ms)
+                        const elapsed = Date.now() - start;
+                        const remaining = Math.max(0, 500 - elapsed);
+
+                        setTimeout(() => {
+                            startQuiz(0, false);
+                            fadeOutLoader();
+                        }, remaining);
+
                     } catch (err) {
                         console.error('Error loading historial:', err);
-                        showScreen('error');
+                        setTimeout(() => {
+                            showScreen('error');
+                            fadeOutLoader();
+                        }, Math.max(0, 500 - (Date.now() - start)));
+                    }
+                }
+
+                function fadeOutLoader() {
+                    const loader = $('#init-loader');
+                    if (loader) {
+                        loader.style.opacity = '0';
+                        document.body.classList.remove('overflow-hidden');
+                        setTimeout(() => loader.remove(), 300);
                     }
                 }
 
@@ -717,6 +761,9 @@
                         if (selected === correct) score++;
                     });
 
+                    // Save progress locally
+                    saveProgress(currentDay.dia);
+
                     // Short delay then show results
                     setTimeout(() => showResults(score), 1200);
                 }
@@ -782,10 +829,19 @@
 
                     historial.forEach((day, idx) => {
                         const card = document.createElement('button');
-                        card.className = 'day-card glass rounded-xl p-4 text-left border border-stone-700/30 w-full flex items-center gap-4 fade-in';
+                        const isToday = idx === 0;
+                        const isCompleted = completedDays.includes(day.dia);
+
+                        const stateClasses = isCompleted
+                            ? 'opacity-70 border-green-500/30 bg-green-900/10'
+                            : 'border-stone-700/30 hover:-translate-y-1 hover:border-brand-500/40 hover:shadow-lg hover:shadow-brand-500/20';
+
+                        card.className = `glass rounded-xl p-4 text-left border w-full flex items-center gap-4 fade-in transition-all duration-300 ${stateClasses}`;
                         card.style.animationDelay = (Math.min(idx, 15) * 0.04) + 's';
 
-                        const isToday = idx === 0;
+                        const statusIcon = isCompleted
+                            ? `<span class="flex-shrink-0 text-green-400 font-bold text-xs bg-green-400/10 px-2 py-1 rounded border border-green-500/20">✅ Hecho</span>`
+                            : `<svg class="w-5 h-5 text-stone-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>`;
 
                         card.innerHTML = `
                     <div class="flex-shrink-0 w-12 h-12 rounded-xl ${isToday ? 'bg-gradient-to-br from-brand-500 to-brand-600' : 'bg-surface-700/60'} flex items-center justify-center">
@@ -797,9 +853,7 @@
                         </p>
                         <p class="text-stone-500 text-xs mt-0.5">${formatDate(day.fecha)}</p>
                     </div>
-                    <svg class="w-5 h-5 text-stone-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                    </svg>
+                    ${statusIcon}
                 `;
 
                         card.addEventListener('click', () => {
@@ -809,6 +863,7 @@
                         list.appendChild(card);
                     });
 
+                    updateClearButtonVisibility();
                     showScreen('history');
                 }
 
@@ -817,6 +872,18 @@
 
                 $('#btn-history').addEventListener('click', renderHistory);
                 $('#btn-to-history').addEventListener('click', renderHistory);
+
+                const btnClearProgress = $('#btn-clear-progress');
+                if (btnClearProgress) {
+                    btnClearProgress.addEventListener('click', () => {
+                        if (confirm('¿Seguro que quieres borrar todo tu progreso guardado?')) {
+                            completedDays = [];
+                            localStorage.removeItem(PROGRESS_KEY);
+                            renderHistory(); // Re-render to clear checks
+                        }
+                    });
+                }
+
                 $('#btn-back-from-history').addEventListener('click', () => {
                     startQuiz(0, false);
                 });
@@ -861,7 +928,7 @@
                 });
 
                 // ── Init ───────────────────────────────────────────────
-                loadHistorial();
+                initApp();
             })();
     </script>
 </body>
