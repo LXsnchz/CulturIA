@@ -2,7 +2,7 @@
 CulturIA — Generador de Trivia Diaria sobre Cultura General Española
 =====================================================================
 Este script se ejecuta diariamente vía GitHub Actions.
-Usa la API de Google Gemini (modelo gemini-1.5-flash) para generar
+Usa la API de Groq (modelo llama-3.3-70b-versatile) para generar
 3 preguntas nuevas y un "mensaje de burla" diario.
 """
 
@@ -12,17 +12,17 @@ import sys
 from datetime import datetime, timezone, timedelta
 
 try:
-    from google import genai
+    from groq import Groq
 except ImportError:
-    print("Error: el paquete 'google-genai' no está instalado.")
-    print("Ejecuta: pip install google-genai")
+    print("Error: el paquete 'groq' no está instalado.")
+    print("Ejecuta: pip install groq")
     sys.exit(1)
 
 
 # ── Configuración ───────────────────────────────────────────────────
 HISTORIAL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "historial.json")
-GEMINI_MODEL = "gemini-1.5-flash"
-MADRID_TZ = timezone(timedelta(hours=1))  # CET (en CEST sería +2, pero el cron ya lo compensa)
+GROQ_MODEL = "llama-3.3-70b-versatile"
+MADRID_TZ = timezone(timedelta(hours=1))  # CET (en CEST sería +2)
 MAX_CONTEXT_QUESTIONS = 60  # Últimas N preguntas enviadas a la IA para evitar repeticiones
 
 
@@ -128,39 +128,41 @@ def parse_response(text: str) -> dict:
 def generate_trivia() -> None:
     """Flujo principal de generación de trivia."""
     # 1. Verificar API key
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        print("❌ Error: La variable de entorno GEMINI_API_KEY no está definida.")
+        print("❌ Error: La variable de entorno GROQ_API_KEY no está definida.")
         sys.exit(1)
 
-    # 2. Cargar historial
+    # ... (mismo código cargar historial y fecha) ...
     historial = load_historial()
     print(f"📂 Historial cargado: {len(historial)} días existentes.")
 
-    # 3. Calcular número de día
     dia_number = (historial[0]["dia"] + 1) if historial else 1
     fecha_hoy = datetime.now(MADRID_TZ).strftime("%Y-%m-%d")
 
-    # Verificar si ya hay un día con esta fecha
     if historial and historial[0].get("fecha") == fecha_hoy:
         print(f"⚠️  Ya existe un registro para hoy ({fecha_hoy}). Saltando generación.")
         return
 
-    # 4. Obtener preguntas anteriores para contexto
     prev_questions = get_previous_questions(historial)
     print(f"🧠 Contexto anti-repetición: {len(prev_questions)} preguntas anteriores.")
 
-    # 5. Construir prompt y llamar a Gemini
     prompt = build_prompt(prev_questions, dia_number)
 
-    print(f"🤖 Llamando a Gemini ({GEMINI_MODEL})...")
-    client = genai.Client(api_key=api_key)
-    response = client.models.generate_content(
-        model=GEMINI_MODEL,
-        contents=prompt,
+    print(f"🤖 Llamando a Groq ({GROQ_MODEL})...")
+    client = Groq(api_key=api_key)
+    
+    response = client.chat.completions.create(
+        model=GROQ_MODEL,
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant that strictly outputs JSON."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.7,
+        response_format={"type": "json_object"}
     )
 
-    raw_text = response.text
+    raw_text = response.choices[0].message.content
     print(f"📥 Respuesta recibida ({len(raw_text)} caracteres).")
 
     # 6. Parsear y validar

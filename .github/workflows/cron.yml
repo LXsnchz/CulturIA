@@ -24,11 +24,11 @@ jobs:
           python-version: "3.11"
 
       - name: 📦 Instalar dependencias
-        run: pip install google-genai
+        run: pip install groq
 
       - name: 🤖 Generar trivia del día
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python generar_trivia.py
 
       - name: 📤 Commit y push de cambios
