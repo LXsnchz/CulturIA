@@ -2,7 +2,7 @@
 CulturIA — Generador de Trivia Diaria sobre Cultura General Española
 =====================================================================
 Este script se ejecuta diariamente vía GitHub Actions.
-Usa la API de Google Gemini (modelo gemini-2.0-flash) para generar
+Usa la API de Google Gemini (modelo gemini-1.5-flash) para generar
 3 preguntas nuevas y un "mensaje de burla" diario.
 """
 
@@ -21,7 +21,7 @@ except ImportError:
 
 # ── Configuración ───────────────────────────────────────────────────
 HISTORIAL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "historial.json")
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-1.5-flash"
 MADRID_TZ = timezone(timedelta(hours=1))  # CET (en CEST sería +2, pero el cron ya lo compensa)
 MAX_CONTEXT_QUESTIONS = 60  # Últimas N preguntas enviadas a la IA para evitar repeticiones
 
