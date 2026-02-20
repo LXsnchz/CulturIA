@@ -1,5 +1,38 @@
 [
   {
+    "dia": 52,
+    "fecha": "2026-02-21",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la serie 'Los Caprichos'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es la capital de la comunidad autónoma de Andalucía.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del festival de música clásica que se celebra en el monasterio de San Lorenzo de El Escorial?",
+        "opciones": [
+          "Festival de Música de Segovia",
+          "Festival de San Lorenzo de El Escorial",
+          "Festival de Música de Granada"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 🤦‍♂️ No te preocupes, ¡mañana es otro día para aprender sobre la cultura española! 🌞👏"
+  },
+  {
     "dia": 51,
     "fecha": "2026-02-20",
     "preguntas": [
