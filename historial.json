@@ -1,5 +1,38 @@
 [
   {
+    "dia": 51,
+    "fecha": "2026-02-20",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del festival de música electrónica que se celebra en Benidorm?",
+        "opciones": [
+          "FIB",
+          "Sónar",
+          "Electro Beach Festival"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por su arquitectura modernista.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Quién es el autor del libro 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Benito Pérez Galdós",
+          "Emilia Pardo Bazán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de paella para alimentar ese cerebro! 🍝🧠😂"
+  },
+  {
     "dia": 50,
     "fecha": "2026-02-19",
     "preguntas": [
