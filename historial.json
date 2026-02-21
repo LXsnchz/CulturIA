@@ -1,5 +1,38 @@
 [
   {
+    "dia": 53,
+    "fecha": "2026-02-22",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa la ciudad de Toledo?",
+        "opciones": [
+          "Río Tajo",
+          "Río Ebro",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es famosa por su acueducto romano.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'La Vendimia'?",
+        "opciones": [
+          "Joan Miró",
+          "Salvador Dalí",
+          "Joaquín Sorolla"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres un toro en una tienda de porcelana! 🐂🥘😂"
+  },
+  {
     "dia": 52,
     "fecha": "2026-02-21",
     "preguntas": [
