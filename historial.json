@@ -1,5 +1,38 @@
 [
   {
+    "dia": 54,
+    "fecha": "2026-02-23",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El jardín de las delicias terrenales'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Hieronymus Bosch",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cádiz es la capital de la provincia de Huelva.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del festival de música que se celebra en la localidad de Benicàssim?",
+        "opciones": [
+          "Festival de Música de Granada",
+          "Festival de Jazz de Madrid",
+          "Festival Internacional de Benicàssim"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres tonto... solo estás un poco 'tapado' como un tortilla de patatas! 🥔😂"
+  },
+  {
     "dia": 53,
     "fecha": "2026-02-22",
     "preguntas": [
