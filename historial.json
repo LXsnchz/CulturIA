@@ -1,5 +1,38 @@
 [
   {
+    "dia": 55,
+    "fecha": "2026-02-24",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del filósofo español que escribió 'Meditaciones del Quijote'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "José Ortega y Gasset",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por su universidad, una de las más antiguas de Europa.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la serie 'Los Disparates'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva en tu cerebro para lubricar esas neuronas! 🧠💡😂"
+  },
+  {
     "dia": 54,
     "fecha": "2026-02-23",
     "preguntas": [
