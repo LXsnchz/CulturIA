@@ -1,5 +1,38 @@
 [
   {
+    "dia": 56,
+    "fecha": "2026-02-25",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del autor del libro 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Juan Ramón Jiménez",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Córdoba es conocida por tener la mezquita más grande de Europa.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'Las Meninas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de paella en el cerebro para acordarte de estas preguntas! 🍚😂"
+  },
+  {
     "dia": 55,
     "fecha": "2026-02-24",
     "preguntas": [
