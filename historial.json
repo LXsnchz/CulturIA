@@ -1,5 +1,38 @@
 [
   {
+    "dia": 57,
+    "fecha": "2026-02-26",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del festival de música que se celebra en la localidad de Vitoria?",
+        "opciones": [
+          "Festival de Jazz de Vitoria",
+          "Azkena Rock Festival",
+          "Festival de Música de Cámara de Vitoria"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El Teide es el volcán más alto de Europa",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del autor del libro 'La Sombra del Ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Miguel Delibes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy te has levantado con el pie izquierdo... o puede que solo sea tu conocimiento de la cultura española el que está un poco 'patas arriba'! 😂🤦‍♂️"
+  },
+  {
     "dia": 56,
     "fecha": "2026-02-25",
     "preguntas": [
