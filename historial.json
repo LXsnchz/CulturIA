@@ -1,5 +1,38 @@
 [
   {
+    "dia": 58,
+    "fecha": "2026-02-27",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque de atracciones de Madrid?",
+        "opciones": [
+          "Parque Warner",
+          "Parque de Atracciones de Madrid",
+          "Isla Mágica"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El Museo del Prado está ubicado en la ciudad de Barcelona",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa la ciudad de Zaragoza?",
+        "opciones": [
+          "Río Ebro",
+          "Río Tajo",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de cultura española en tu vida! 🤣📚 No te preocupes, sigue intentándolo, ¡la práctica hace al maestro! 😄"
+  },
+  {
     "dia": 57,
     "fecha": "2026-02-26",
     "preguntas": [
