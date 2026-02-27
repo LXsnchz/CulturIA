@@ -1,5 +1,38 @@
 [
   {
+    "dia": 59,
+    "fecha": "2026-02-28",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la serie 'Los Desastres de la Guerra'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santiago de Compostela es la capital de la Comunidad Autónoma de Galicia",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del festival de música que se celebra en la localidad de Córdoba?",
+        "opciones": [
+          "Festival de Música de Córdoba",
+          "Festival de la Luna de Valencia",
+          "Festival de Jazz de Madrid"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Pobre de ti, parece que la cultura española es un misterio para ti! 🤣📚"
+  },
+  {
     "dia": 58,
     "fecha": "2026-02-27",
     "preguntas": [
