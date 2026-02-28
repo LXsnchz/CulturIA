@@ -1,5 +1,38 @@
 [
   {
+    "dia": 60,
+    "fecha": "2026-03-01",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del archipiélago español situado en el norte del Atlántico?",
+        "opciones": [
+          "Islas Baleares",
+          "Islas Canarias",
+          "Islas Cíes"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Bilbao es la capital de la Comunidad Autónoma del País Vasco",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "Francisco de Goya",
+          "El Greco",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Vaya fallo, tío! 😂👎 Parece que necesitas un poco más de CulturIA en tu vida... 🤓"
+  },
+  {
     "dia": 59,
     "fecha": "2026-02-28",
     "preguntas": [
