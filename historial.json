@@ -1,5 +1,38 @@
 [
   {
+    "dia": 61,
+    "fecha": "2026-03-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso poeta español que escribió 'Canto a la luna'?",
+        "opciones": [
+          "Federico García Lorca",
+          "Miguel de Cervantes",
+          "Rafael Alberti"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es la capital de la Comunidad Valenciana",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la serie 'Los Proverbios'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Hieronymus Bosch"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Ay caramba! Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas 🧠💡😂"
+  },
+  {
     "dia": 60,
     "fecha": "2026-03-01",
     "preguntas": [
