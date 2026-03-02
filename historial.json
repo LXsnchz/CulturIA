@@ -1,5 +1,38 @@
 [
   {
+    "dia": 62,
+    "fecha": "2026-03-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso museo de arte moderno y contemporáneo de Bilbao?",
+        "opciones": [
+          "Museo Guggenheim Bilbao",
+          "Museo Reina Sofía",
+          "Museo Thyssen-Bornemisza"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por su arquitectura gótica.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del autor del libro 'Doña Perfecta'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Miguel de Cervantes",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Ups! Parece que hoy no has acertado ni una 🤦‍♂️🎉, sigue intentándolo, ¡mañana es otro día! 😄"
+  },
+  {
     "dia": 61,
     "fecha": "2026-03-02",
     "preguntas": [
