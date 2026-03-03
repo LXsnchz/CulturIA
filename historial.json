@@ -1,5 +1,38 @@
 [
   {
+    "dia": 63,
+    "fecha": "2026-03-04",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Juan Gris"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por su arquitectura gótica.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del festival de música que se celebra en la localidad de Sanlúcar de Barrameda?",
+        "opciones": [
+          "Festival de Música de Cádiz",
+          "Festival de Jazz de Sanlúcar",
+          "Festival de Música de Sanlúcar"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has acertado ni una! 😂🥘 No te preocupes, siempre hay mañana... o no 🤣"
+  },
+  {
     "dia": 62,
     "fecha": "2026-03-03",
     "preguntas": [
