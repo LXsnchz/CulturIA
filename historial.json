@@ -1,5 +1,38 @@
 [
   {
+    "dia": 64,
+    "fecha": "2026-03-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del autor del libro 'La Colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Oviedo es la capital del Principado de Asturias",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El Akelarre'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Joan Miró",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te rindas! 😂👏 Aún tienes 336 días para convertirte en un experto en cultura española 🤓🇪🇸"
+  },
+  {
     "dia": 63,
     "fecha": "2026-03-04",
     "preguntas": [
