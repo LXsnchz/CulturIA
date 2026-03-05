@@ -1,5 +1,38 @@
 [
   {
+    "dia": 65,
+    "fecha": "2026-03-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'La Maja Desnuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Pamplona es conocida por su festival de San Fermín.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del archipiélago español situado en el Mediterráneo?",
+        "opciones": [
+          "Islas Baleares",
+          "Islas Canarias",
+          "Islas Cíes"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¿Te has perdido en la geografía española? 😂🗺️ No te preocupes, siempre hay un mañana... o un GPS 📍👍"
+  },
+  {
     "dia": 64,
     "fecha": "2026-03-05",
     "preguntas": [
