@@ -1,5 +1,38 @@
 [
   {
+    "dia": 66,
+    "fecha": "2026-03-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional situado en la isla de Tenerife?",
+        "opciones": [
+          "Teide",
+          "Garajonay",
+          "Timanfaya"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? El famoso escritor español, Miguel de Unamuno, nació en Bilbao.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa la ciudad de Lérida?",
+        "opciones": [
+          "Ebro",
+          "Segre",
+          "Tajo"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Ups, parece que hoy no has estado muy 'cachondo' para las preguntas! 😜🤦‍♂️"
+  },
+  {
     "dia": 65,
     "fecha": "2026-03-06",
     "preguntas": [
