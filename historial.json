@@ -1,5 +1,38 @@
 [
   {
+    "dia": 67,
+    "fecha": "2026-03-08",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'La Anunciación'?",
+        "opciones": [
+          "Francisco de Zurbarán",
+          "Diego Velázquez",
+          "Bartolomé Esteban Murillo"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Girona es conocida por sus casas coloridas a orillas del río Onyar.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel Delibes",
+          "Rafael Sánchez Ferlosio"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! ☹️ No te preocupes, inténtalo de nuevo, ¡y no te rindas! 💪😂"
+  },
+  {
     "dia": 66,
     "fecha": "2026-03-07",
     "preguntas": [
