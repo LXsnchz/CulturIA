@@ -1,5 +1,38 @@
 [
   {
+    "dia": 68,
+    "fecha": "2026-03-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La familia de Carlos IV'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es la capital de la provincia de Granada.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Murcia?",
+        "opciones": [
+          "Festival de Música de Murcia",
+          "Festival de Jazz de San Sebastián",
+          "Festival Internacional de Música de Segovia"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 🤦‍♂️ No te preocupes, sigue intentándolo, ¡o llama a un amigo listo! 📞😂"
+  },
+  {
     "dia": 67,
     "fecha": "2026-03-08",
     "preguntas": [
