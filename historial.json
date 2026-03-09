@@ -1,5 +1,38 @@
 [
   {
+    "dia": 69,
+    "fecha": "2026-03-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Celestina'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Fernando de Rojas",
+          "Lope de Vega"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es la capital de la Comunidad Autónoma de Cataluña",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso artista español que creó la serie 'Los Caprichos' y 'Los Disparates'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar ese cerebro! 🥘😂"
+  },
+  {
     "dia": 68,
     "fecha": "2026-03-09",
     "preguntas": [
