@@ -1,5 +1,38 @@
 [
   {
+    "dia": 70,
+    "fecha": "2026-03-11",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito'",
+        "opciones": [
+          "Francisco de Goya",
+          "Edvard Munch",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Madrid es la capital de la Comunidad Autónoma de Castilla-La Mancha",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del viento'",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Ruiz Zafón",
+          "Gabriel García Márquez"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que todavía no has pillado el ritmo de CulturIA 🎶👀, ¡sigue intentándolo! 😂👍"
+  },
+  {
     "dia": 69,
     "fecha": "2026-03-10",
     "preguntas": [
