@@ -1,5 +1,38 @@
 [
   {
+    "dia": 71,
+    "fecha": "2026-03-12",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El amor en los tiempos del cólera'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Gabriel García Márquez",
+          "Camilo José Cela"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Teruel es conocida por sus mudéjares.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La dama de Elche'?",
+        "opciones": [
+          "Diego Velázquez",
+          "Francisco de Goya",
+          "Salvador Dalí"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que no sabes nada de España! 😂🤦‍♂️"
+  },
+  {
     "dia": 70,
     "fecha": "2026-03-11",
     "preguntas": [
