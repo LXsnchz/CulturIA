@@ -1,5 +1,38 @@
 [
   {
+    "dia": 73,
+    "fecha": "2026-03-14",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El triunfo de la muerte'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Hieronymus Bosch",
+          "El Greco"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Marbella es conocida por su arquitectura moderna.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Benito Pérez Galdós",
+          "Vicente Blasco Ibáñez"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Tienes menos cultura que un chihuahua en un concurso de perros sabios! 🐶😂"
+  },
+  {
     "dia": 72,
     "fecha": "2026-03-13",
     "preguntas": [
