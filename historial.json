@@ -1,5 +1,38 @@
 [
   {
+    "dia": 74,
+    "fecha": "2026-03-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Venus del espejo'?",
+        "opciones": [
+          "Velázquez",
+          "Goya",
+          "Velasco"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por su arquitectura románica.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Carlos Fuentes",
+          "Miguel de Unamuno",
+          "Juan Rulfo"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tu cerebro! 🧠💧😂"
+  },
+  {
     "dia": 73,
     "fecha": "2026-03-14",
     "preguntas": [
