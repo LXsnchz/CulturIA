@@ -1,5 +1,38 @@
 [
   {
+    "dia": 75,
+    "fecha": "2026-03-16",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El jardín de las delicias terrenales'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Hieronymus Bosch",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cuenca es Patrimonio de la Humanidad por la UNESCO",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Alfonso Reyes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy te has levantado con el pie izquierdo... o puede que sea la cabeza! 😂🥘"
+  },
+  {
     "dia": 74,
     "fecha": "2026-03-15",
     "preguntas": [
