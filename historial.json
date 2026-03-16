@@ -1,5 +1,38 @@
 [
   {
+    "dia": 76,
+    "fecha": "2026-03-17",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa la ciudad de Salamanca?",
+        "opciones": [
+          "Río Tajo",
+          "Río Duero",
+          "Río Ebro"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Toledo es Patrimonio de la Humanidad por la UNESCO",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Leopoldo Alas Clarín"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! 😂 Parece que necesitas un poco de CulturIA en tu vida... ¡Vuelve a intentarlo! 🤓"
+  },
+  {
     "dia": 75,
     "fecha": "2026-03-16",
     "preguntas": [
