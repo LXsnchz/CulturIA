@@ -1,5 +1,38 @@
 [
   {
+    "dia": 77,
+    "fecha": "2026-03-18",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'Las Meninas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cáceres es Patrimonio de la Humanidad por la UNESCO",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Alfonso Reyes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas una dosis de CulturIA diaria! 🤣📚 No te preocupes, seguirás intentándolo... o no 🤷‍♀️😂"
+  },
+  {
     "dia": 76,
     "fecha": "2026-03-17",
     "preguntas": [
