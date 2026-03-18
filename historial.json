@@ -1,5 +1,38 @@
 [
   {
+    "dia": 78,
+    "fecha": "2026-03-19",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música flamenco que se celebra en la localidad de Jerez de la Frontera?",
+        "opciones": [
+          "Festival de Música de Cádiz",
+          "Festival de Jerez",
+          "Festival Internacional de Música de Granada"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santander es la capital de la Comunidad Autónoma de Cantabria",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'La noche estrellada'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Vincent van Gogh"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Pobre diablo! 🤦‍♂️ Has fallado, pero no te preocupes, la Cultura es como el fútbol, siempre hay un próximo partido 🏟️😂"
+  },
+  {
     "dia": 77,
     "fecha": "2026-03-18",
     "preguntas": [
