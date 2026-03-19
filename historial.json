@@ -1,5 +1,38 @@
 [
   {
+    "dia": 79,
+    "fecha": "2026-03-20",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Juan Ramón Jiménez",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Zaragoza es la capital de la Comunidad Autónoma de Aragón",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'La tertulia de Pombo'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Ramón Casas"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco más de aceite de oliva en el cerebro para recordar eso! 🧠🥘😂"
+  },
+  {
     "dia": 78,
     "fecha": "2026-03-19",
     "preguntas": [
