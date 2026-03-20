@@ -1,5 +1,38 @@
 [
   {
+    "dia": 80,
+    "fecha": "2026-03-21",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque natural situado en la provincia de Cádiz?",
+        "opciones": [
+          "Parque Natural de la Sierra de Grazalema",
+          "Parque Natural de Doñana",
+          "Parque Natural de la Sierra de Aracena"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de León es conocida por su catedral gótica.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del Ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Miguel Delibes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! Parece que tus conocimientos de cultura española son más débiles que un café sin caféina 🤣☕️"
+  },
+  {
     "dia": 79,
     "fecha": "2026-03-20",
     "preguntas": [
