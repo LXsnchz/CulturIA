@@ -1,5 +1,38 @@
 [
   {
+    "dia": 81,
+    "fecha": "2026-03-22",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El cuadro de las lamentaciones'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Córdoba es conocida por su patrimonio arquitectónico romano.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La casa de los espíritus'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Isabel Allende"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Tienes menos cultura que un yogur caducado! 🤣🍿"
+  },
+  {
     "dia": 80,
     "fecha": "2026-03-21",
     "preguntas": [
