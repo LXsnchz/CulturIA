@@ -1,5 +1,38 @@
 [
   {
+    "dia": 82,
+    "fecha": "2026-03-23",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "Francisco de Zurbarán",
+          "El Greco",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es conocida por su arquitectura modernista.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La ciudad y los perros'?",
+        "opciones": [
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges",
+          "Carlos Ruiz Zafón"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has pillado la onda, tío! 🌊😂 Better luck next time, ¡no te rindas! 💪"
+  },
+  {
     "dia": 81,
     "fecha": "2026-03-22",
     "preguntas": [
