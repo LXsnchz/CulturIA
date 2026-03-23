@@ -1,5 +1,38 @@
 [
   {
+    "dia": 83,
+    "fecha": "2026-03-24",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Doña Perfecta'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Leopoldo Alas",
+          "Vicente Blasco Ibáñez"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por su arquitectura mudéjar.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El sueño de Jacob'?",
+        "opciones": [
+          "José de Ribera",
+          "Francisco de Zurbarán",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂 No te preocupes, igual tienes suerte en la lotería... o no 🥘"
+  },
+  {
     "dia": 82,
     "fecha": "2026-03-23",
     "preguntas": [
