@@ -1,5 +1,38 @@
 [
   {
+    "dia": 84,
+    "fecha": "2026-03-25",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Dalí"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Vitoria es conocida por su arquitectura gótica.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El hereje'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Miguel Delibes"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un curso intensivo de CulturIA! 😂📚"
+  },
+  {
     "dia": 83,
     "fecha": "2026-03-24",
     "preguntas": [
