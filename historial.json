@@ -1,5 +1,38 @@
 [
   {
+    "dia": 86,
+    "fecha": "2026-03-28",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El Ángelus'?",
+        "opciones": [
+          "Joan Miró",
+          "Salvador Dalí",
+          "Jean-François Millet"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Burgos es conocida por su catedral gótica.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La araña negra'?",
+        "opciones": [
+          "Pío Baroja",
+          "Ramón María del Valle-Inclán",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 🤦‍♂️ No te preocupes, la cultura española es como una tortilla de patatas: siempre se puede seguir aprendiendo y nunca se acaba 🥔👏"
+  },
+  {
     "dia": 85,
     "fecha": "2026-03-27",
     "preguntas": [
