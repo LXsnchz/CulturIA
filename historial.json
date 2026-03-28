@@ -1,5 +1,38 @@
 [
   {
+    "dia": 87,
+    "fecha": "2026-03-29",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La maja desnuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Bilbao es conocida por su arquitectura moderna.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Don Quijote de la Mancha'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Gonzalo de Berceo"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que tu cerebro se ha ido de vacaciones a la playa de la Costa Brava! 🏖️😂"
+  },
+  {
     "dia": 86,
     "fecha": "2026-03-28",
     "preguntas": [
