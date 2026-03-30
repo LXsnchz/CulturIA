@@ -1,5 +1,38 @@
 [
   {
+    "dia": 89,
+    "fecha": "2026-03-31",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso museo de arte moderno y contemporáneo situado en Madrid?",
+        "opciones": [
+          "Museo del Prado",
+          "Museo Reina Sofia",
+          "Museo Thyssen-Bornemisza"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por su arquitectura barroca.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso bailaor de flamenco español?",
+        "opciones": [
+          "Camaron de la Isla",
+          "Joaquin Cortes",
+          "Enrique Morente"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂🥘 No te preocupes, la cultura española es un océano, pero tú eres solo un pececito 🐟🌊"
+  },
+  {
     "dia": 88,
     "fecha": "2026-03-30",
     "preguntas": [
