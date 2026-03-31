@@ -1,5 +1,38 @@
 [
   {
+    "dia": 90,
+    "fecha": "2026-04-01",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La familia de Carlos IV'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es la capital de la Comunidad Autónoma de Cataluña",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música rock que se celebra en la localidad de Madrid?",
+        "opciones": [
+          "Mad Cool",
+          "Primavera Sound",
+          "Bilbao BBK Live"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva en tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 89,
     "fecha": "2026-03-31",
     "preguntas": [
