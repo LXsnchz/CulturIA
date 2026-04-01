@@ -1,5 +1,38 @@
 [
   {
+    "dia": 91,
+    "fecha": "2026-04-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del viento'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Ruiz Zafón",
+          "Gabriel García Márquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Palma de Mallorca es la capital de la Comunidad Autónoma de Valencia",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pablo Picasso",
+          "Edvard Munch"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡No te quedes con la miel en los labios! 😜🍯 Intenta de nuevo, que el día #91 de CulturIA no se te escape 📚💡"
+  },
+  {
     "dia": 90,
     "fecha": "2026-04-01",
     "preguntas": [
