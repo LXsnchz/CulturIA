@@ -1,5 +1,38 @@
 [
   {
+    "dia": 92,
+    "fecha": "2026-04-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso museo de arte contemporáneo situado en Bilbao?",
+        "opciones": [
+          "Museo Guggenheim",
+          "Museo Reina Sofía",
+          "Museo Thyssen-Bornemisza"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es la capital de la Comunidad Autónoma de Andalucía",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Sanlúcar de Barrameda?",
+        "opciones": [
+          "Festival de Música de Cádiz",
+          "Festival de Jazz de Sanlúcar",
+          "Festival Atlántico"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy has fallado más que un torero en una corrida de osos! 🐻🎉😂"
+  },
+  {
     "dia": 91,
     "fecha": "2026-04-02",
     "preguntas": [
