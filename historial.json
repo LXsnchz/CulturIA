@@ -1,5 +1,38 @@
 [
   {
+    "dia": 94,
+    "fecha": "2026-04-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El Greco'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Goya"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valladolid es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benidorm?",
+        "opciones": [
+          "Festival de Música de Benidorm",
+          "Festival de Jazz de Madrid",
+          "Festival de Rock de Barcelona"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que tus conocimientos de cultura española son más flojos que un gazpacho sin pan! 🍞👀😂"
+  },
+  {
     "dia": 93,
     "fecha": "2026-04-04",
     "preguntas": [
