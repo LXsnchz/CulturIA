@@ -1,5 +1,38 @@
 [
   {
+    "dia": 95,
+    "fecha": "2026-04-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso compositor español que creó la obra 'Concierto de Aranjuez'?",
+        "opciones": [
+          "Manuel de Falla",
+          "Joaquín Rodrigo",
+          "Enrique Granados"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por su acueducto romano",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso científico español que descubrió la vacuna contra la rabia?",
+        "opciones": [
+          "Santiago Ramón y Cajal",
+          "Alexander Fleming",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🥘😂"
+  },
+  {
     "dia": 94,
     "fecha": "2026-04-05",
     "preguntas": [
