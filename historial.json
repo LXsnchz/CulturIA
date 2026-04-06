@@ -1,5 +1,38 @@
 [
   {
+    "dia": 96,
+    "fecha": "2026-04-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Venus del espejo'?",
+        "opciones": [
+          "Diego Velázquez",
+          "Francisco de Goya",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por su arquitectura renacentista",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La casa de Bernarda Alba'?",
+        "opciones": [
+          "Federico García Lorca",
+          "Miguel de Cervantes",
+          "Benito Pérez Galdós"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que hoy no has estado muy 'culto'! 🤣📚 No te preocupes, siempre hay mañana... o puedes ir a leer un libro 📖😂"
+  },
+  {
     "dia": 95,
     "fecha": "2026-04-06",
     "preguntas": [
