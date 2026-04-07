@@ -1,5 +1,38 @@
 [
   {
+    "dia": 97,
+    "fecha": "2026-04-08",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso río que atraviesa la ciudad de Sevilla?",
+        "opciones": [
+          "Río Guadalquivir",
+          "Río Tajo",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Toledo es Patrimonio de la Humanidad por la UNESCO",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El amor en los tiempos del cólera'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has perdido en la meseta! 🌄🗺️ No te preocupes, sigue intentándolo, que la cultura española es un tesoro 🏹💡"
+  },
+  {
     "dia": 96,
     "fecha": "2026-04-07",
     "preguntas": [
