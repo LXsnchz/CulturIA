@@ -1,5 +1,38 @@
 [
   {
+    "dia": 98,
+    "fecha": "2026-04-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benicàssim?",
+        "opciones": [
+          "Festival de Málaga",
+          "Festival de Benidorm",
+          "Festival Internacional de Benicàssim"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cádiz es conocida por su arquitectura moderna",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Benito Pérez Galdós",
+          "Vicente Blasco Ibáñez"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que todavía no has descubierto el secreto para acertar! 😜🤔 No te preocupes, sigue intentándolo, que la práctica hace al maestro... o al menos, eso dicen! 😉👏"
+  },
+  {
     "dia": 97,
     "fecha": "2026-04-08",
     "preguntas": [
