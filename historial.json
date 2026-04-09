@@ -1,5 +1,38 @@
 [
   {
+    "dia": 99,
+    "fecha": "2026-04-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'Las Meninas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santander es conocida por su arquitectura art nouveau",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Fuentes",
+          "Juan Rulfo"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🥘😂"
+  },
+  {
     "dia": 98,
     "fecha": "2026-04-09",
     "preguntas": [
