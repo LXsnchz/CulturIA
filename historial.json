@@ -1,5 +1,38 @@
 [
   {
+    "dia": 100,
+    "fecha": "2026-04-11",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La disputa'",
+        "opciones": [
+          "Francisco de Zurbarán",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Teruel es conocida por su arquitectura mudéjar",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región Más Transparente' no, 'El Jarama'",
+        "opciones": [
+          "Rafael Sánchez Ferlosio",
+          "Miguel Delibes",
+          "Camilo José Cela"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres tonto, solo un poquito... despistado! 😜🤦"
+  },
+  {
     "dia": 99,
     "fecha": "2026-04-10",
     "preguntas": [
