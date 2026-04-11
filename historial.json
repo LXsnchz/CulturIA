@@ -1,5 +1,38 @@
 [
   {
+    "dia": 101,
+    "fecha": "2026-04-12",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El tercer de mayo de 1808'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Zaragoza es conocida por su arquitectura románica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Juan Ramón Jiménez",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Ups, parece que te has quedado en la primera página del libro! 📚😂"
+  },
+  {
     "dia": 100,
     "fecha": "2026-04-11",
     "preguntas": [
