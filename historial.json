@@ -1,5 +1,38 @@
 [
   {
+    "dia": 102,
+    "fecha": "2026-04-13",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Vitoria?",
+        "opciones": [
+          "Festival de Jazz de Vitoria",
+          "Festival de Música de Cámara de Vitoria",
+          "Azkena Rock Festival"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de León es conocida por su arquitectura románica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del Ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Miguel Delibes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂🤦 No te preocupes, la cultura española es como el jamón ibérico: hay que saber curtirla 🥖👏"
+  },
+  {
     "dia": 101,
     "fecha": "2026-04-12",
     "preguntas": [
