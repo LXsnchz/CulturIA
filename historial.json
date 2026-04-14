@@ -1,5 +1,38 @@
 [
   {
+    "dia": 104,
+    "fecha": "2026-04-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Madrid?",
+        "opciones": [
+          "Mad Cool",
+          "Primavera Sound",
+          "Bilbao BBK Live"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es conocida por su arquitectura modernista",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La dama de Elche'?",
+        "opciones": [
+          "Velázquez",
+          "Goya",
+          "No existe, es una escultura"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de CulturIA en tu vida! 🤣📚"
+  },
+  {
     "dia": 103,
     "fecha": "2026-04-14",
     "preguntas": [
