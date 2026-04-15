@@ -1,5 +1,38 @@
 [
   {
+    "dia": 105,
+    "fecha": "2026-04-16",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Goya"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por su arquitectura mudéjar",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Ibiza?",
+        "opciones": [
+          "Primavera Sound",
+          "Sónar",
+          "Ibiza Rocks"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres un 'toro' en cultura española... todavía! 🐃😂"
+  },
+  {
     "dia": 104,
     "fecha": "2026-04-15",
     "preguntas": [
