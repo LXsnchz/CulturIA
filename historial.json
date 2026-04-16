@@ -1,5 +1,38 @@
 [
   {
+    "dia": 106,
+    "fecha": "2026-04-17",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Oviedo es conocida por su arquitectura románica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! 🤣 Parece que has fallado, pero no te preocupes, ¡hay quien ha fallado más! 🤦‍♂️😂"
+  },
+  {
     "dia": 105,
     "fecha": "2026-04-16",
     "preguntas": [
