@@ -1,5 +1,38 @@
 [
   {
+    "dia": 107,
+    "fecha": "2026-04-18",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La noche estrellada'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Vincent van Gogh",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Jorge Luis Borges",
+          "Carlos Fuentes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡No sabes nada de cultura española! 🤣📚👀"
+  },
+  {
     "dia": 106,
     "fecha": "2026-04-17",
     "preguntas": [
