@@ -1,5 +1,38 @@
 [
   {
+    "dia": 108,
+    "fecha": "2026-04-19",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El cuadro de las meninas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Bilbao es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso compositor español que creó la obra 'Asturias'?",
+        "opciones": [
+          "Isaac Albéniz",
+          "Manuel de Falla",
+          "Enrique Granados"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂🥘 No te preocupes, la cultura española es un océano y tú eres solo un barco de juguete 🛥️🌊"
+  },
+  {
     "dia": 107,
     "fecha": "2026-04-18",
     "preguntas": [
