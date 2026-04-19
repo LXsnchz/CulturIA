@@ -1,5 +1,38 @@
 [
   {
+    "dia": 109,
+    "fecha": "2026-04-20",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa la ciudad de Zaragoza?",
+        "opciones": [
+          "Río Ebro",
+          "Río Tajo",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Girona es conocida por su arquitectura modernista",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Doña Perfecta'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Miguel de Cervantes",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, errores pasajeros! 😊👍, pero ¡estoy aquí para ayudarte a mejorar! 💡👏"
+  },
+  {
     "dia": 108,
     "fecha": "2026-04-19",
     "preguntas": [
