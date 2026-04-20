@@ -1,5 +1,38 @@
 [
   {
+    "dia": 110,
+    "fecha": "2026-04-21",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La maja desnuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benicàssim?",
+        "opciones": [
+          "Festival de Música de Benidorm",
+          "Festival de Jazz de San Sebastián",
+          "Festival Internacional de Benicàssim"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que has confundido la cultura española con la pizza! 🍕😂 ¡Vuelve a intentarlo, que no es tan difícil! 😉"
+  },
+  {
     "dia": 109,
     "fecha": "2026-04-20",
     "preguntas": [
