@@ -1,5 +1,38 @@
 [
   {
+    "dia": 111,
+    "fecha": "2026-04-22",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Juan Ramón Jiménez"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es conocida por su arquitectura modernista",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Goya"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco más de 'tapas' de cultura española! 🍴😂"
+  },
+  {
     "dia": 110,
     "fecha": "2026-04-21",
     "preguntas": [
