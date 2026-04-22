@@ -1,5 +1,38 @@
 [
   {
+    "dia": 112,
+    "fecha": "2026-04-23",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso río que atraviesa la ciudad de Madrid?",
+        "opciones": [
+          "Río Tajo",
+          "Río Manzanares",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Ibiza es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La familia de Carlos IV'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco más de 'salsa' en tu vida cultural! 🍝📚😂"
+  },
+  {
     "dia": 111,
     "fecha": "2026-04-22",
     "preguntas": [
