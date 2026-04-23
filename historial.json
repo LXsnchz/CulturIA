@@ -1,5 +1,38 @@
 [
   {
+    "dia": 113,
+    "fecha": "2026-04-24",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Salvador Dalí"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por su arquitectura mudéjar",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del viento'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Ruiz Zafón",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, fallar es divertido! 😂👏"
+  },
+  {
     "dia": 112,
     "fecha": "2026-04-23",
     "preguntas": [
