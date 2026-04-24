@@ -1,5 +1,38 @@
 [
   {
+    "dia": 114,
+    "fecha": "2026-04-25",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la isla de La Palma?",
+        "opciones": [
+          "Parque Nacional de Garajonay",
+          "Parque Nacional de Teide",
+          "Parque Nacional de Ordesa y Monte Perdido"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la cuna del famoso pintor Pablo Picasso",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de flamenco que se celebra en la localidad de Jerez de la Frontera?",
+        "opciones": [
+          "Festival de Música de Cádiz",
+          "Festival Internacional de Música y Danza de Granada",
+          "Festival de Jerez"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 113,
     "fecha": "2026-04-24",
     "preguntas": [
