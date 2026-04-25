@@ -1,5 +1,38 @@
 [
   {
+    "dia": 115,
+    "fecha": "2026-04-26",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pablo Picasso",
+          "Edvard Munch"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la capital de la Comunidad Valenciana",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Cervantes",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres tonto, solo necesitas un poco de CulturIA! 🤓📚"
+  },
+  {
     "dia": 114,
     "fecha": "2026-04-25",
     "preguntas": [
