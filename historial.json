@@ -1,5 +1,38 @@
 [
   {
+    "dia": 116,
+    "fecha": "2026-04-27",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El pintor y su modelo'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por su acueducto romano",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La familia de Pascual Duarte'?",
+        "opciones": [
+          "Rafael Sánchez Ferlosio",
+          "Miguel Delibes",
+          "Camilo José Cela"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas 🧠💡😂"
+  },
+  {
     "dia": 115,
     "fecha": "2026-04-26",
     "preguntas": [
