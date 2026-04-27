@@ -1,5 +1,38 @@
 [
   {
+    "dia": 117,
+    "fecha": "2026-04-28",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la isla de Tenerife?",
+        "opciones": [
+          "Parque Nacional de la Caldera de Taburiente",
+          "Parque Nacional del Teide",
+          "Parque Nacional de Garajonay"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La busca'?",
+        "opciones": [
+          "Pío Baroja",
+          "Vicente Blasco Ibáñez",
+          "Benito Pérez Galdós"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Ay, caramba! 🤦‍♂️ Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas 🥘😂"
+  },
+  {
     "dia": 116,
     "fecha": "2026-04-27",
     "preguntas": [
