@@ -1,5 +1,38 @@
 [
   {
+    "dia": 118,
+    "fecha": "2026-04-29",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El akelarre'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Sevilla es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Celestina'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Fernando de Rojas",
+          "Lope de Vega"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres un 'toro' en cultura española... pero casi! 🐃😂"
+  },
+  {
     "dia": 117,
     "fecha": "2026-04-28",
     "preguntas": [
