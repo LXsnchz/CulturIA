@@ -1,5 +1,38 @@
 [
   {
+    "dia": 119,
+    "fecha": "2026-04-30",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito de la montaña'?",
+        "opciones": [
+          "Pablo Picasso",
+          "Joan Miró",
+          "Salvador Dalí"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cádiz es conocida por ser la ciudad más antigua de Europa occidental",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El amor en los tiempos del cólera' no, 'Fortunata y Jacinta'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Gustave Flaubert",
+          "Miguel de Cervantes"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! 😂 Parece que te has perdido en la cultura española... ¡Vuelve a intentarlo! 🤦‍♂️📚"
+  },
+  {
     "dia": 118,
     "fecha": "2026-04-29",
     "preguntas": [
