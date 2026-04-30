@@ -1,5 +1,38 @@
 [
   {
+    "dia": 120,
+    "fecha": "2026-05-01",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Don Quijote de la Mancha'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Gonzalo de Berceo"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santiago de Compostela es conocida por ser un importante lugar de peregrinación cristiana",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'Las meninas'?",
+        "opciones": [
+          "Diego Velázquez",
+          "Francisco de Goya",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, parece que te has perdido en la meseta! 🗺️😂 No te preocupes, sigue intentándolo, que la cultura española es como el jamón ibérico, tiene que madurar... y tú también 🥘😄"
+  },
+  {
     "dia": 119,
     "fecha": "2026-04-30",
     "preguntas": [
