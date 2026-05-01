@@ -1,5 +1,38 @@
 [
   {
+    "dia": 121,
+    "fecha": "2026-05-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la provincia de Huesca?",
+        "opciones": [
+          "Ordesa y Monte Perdido",
+          "Doñana",
+          "Teide"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de San Sebastián es conocida por ser la capital de la Comunidad Autónoma del País Vasco",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso compositor español que creó la obra 'Concierto de Aranjuez'?",
+        "opciones": [
+          "Manuel de Falla",
+          "Joaquín Rodrigo",
+          "Enrique Granados"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que todavía no has descubierto el secreto para acertar! 🤔🔍 No te preocupes, sigue intentándolo, ¡o acabarás como el Toro de Osborne, solo y sin premio! 🐂😂"
+  },
+  {
     "dia": 120,
     "fecha": "2026-05-01",
     "preguntas": [
