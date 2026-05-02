@@ -1,5 +1,38 @@
 [
   {
+    "dia": 122,
+    "fecha": "2026-05-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La vendimia'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Joan Miró",
+          "Juan Fernández de Navarrete"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Toledo es conocida por su arquitectura mudéjar",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Juan Ramón Jiménez"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has estado muy 'culto'! 😂📚"
+  },
+  {
     "dia": 121,
     "fecha": "2026-05-02",
     "preguntas": [
