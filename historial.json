@@ -1,5 +1,38 @@
 [
   {
+    "dia": 123,
+    "fecha": "2026-05-04",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del Ciprés es Alargada'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Rosalía de Castro"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por ser la ciudad con el mayor número de estudiantes de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La tertulia de San Fernando'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas, ¡vamos, no te rindas! 🧠💡😂"
+  },
+  {
     "dia": 122,
     "fecha": "2026-05-03",
     "preguntas": [
