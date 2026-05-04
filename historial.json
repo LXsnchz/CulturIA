@@ -1,5 +1,38 @@
 [
   {
+    "dia": 124,
+    "fecha": "2026-05-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La cena de San Andrés'?",
+        "opciones": [
+          "Francisco de Zurbarán",
+          "Diego Velázquez",
+          "Bartolomé Esteban Murillo"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Córdoba es conocida por ser la capital de la Comunidad Autónoma de Andalucía",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La casa de los espíritus' no, 'La arboleda perdida'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Leopoldo Alas",
+          "Emilia Pardo Bazán"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂🤦‍♂️ No te preocupes, sigue intentándolo, ¡o llama a un amigo listo! 📚👫"
+  },
+  {
     "dia": 123,
     "fecha": "2026-05-04",
     "preguntas": [
