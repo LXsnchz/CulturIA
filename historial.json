@@ -1,5 +1,38 @@
 [
   {
+    "dia": 125,
+    "fecha": "2026-05-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La procesión del entierro del conde de Orgaz'?",
+        "opciones": [
+          "Francisco de Goya",
+          "El Greco",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Teruel es conocida por ser la ciudad más fría de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sonata de Invierno'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Rafael Alberti"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 🤦‍♂️ No te preocupes, ¡la cultura es como el jamón, hay que dejarla madurar! 🥖😂"
+  },
+  {
     "dia": 124,
     "fecha": "2026-05-05",
     "preguntas": [
