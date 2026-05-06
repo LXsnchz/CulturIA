@@ -1,5 +1,38 @@
 [
   {
+    "dia": 126,
+    "fecha": "2026-05-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del Viento'?",
+        "opciones": [
+          "Carlos Ruiz Zafón",
+          "Miguel de Cervantes",
+          "Jorge Luis Borges"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cuenca es conocida por su arquitectura gótica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la isla de Fuerteventura?",
+        "opciones": [
+          "Parque Nacional de Doñana",
+          "Parque Nacional de Teide",
+          "Parque Natural de Corralejo"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva en el cerebro para recordar eso! 🧠🥘"
+  },
+  {
     "dia": 125,
     "fecha": "2026-05-06",
     "preguntas": [
