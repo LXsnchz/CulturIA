@@ -1,5 +1,38 @@
 [
   {
+    "dia": 127,
+    "fecha": "2026-05-08",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso museo de arte moderno y contemporáneo que se encuentra en la ciudad de Bilbao?",
+        "opciones": [
+          "Museo Guggenheim Bilbao",
+          "Museo Reina Sofía",
+          "Museo Thyssen-Bornemisza"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es conocida por ser la ciudad con el mayor número de playas de la Comunidad Valenciana",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Vitoria?",
+        "opciones": [
+          "Azkena Rock Festival",
+          "Bilbao BBK Live",
+          "Mad Cool"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 126,
     "fecha": "2026-05-07",
     "preguntas": [
