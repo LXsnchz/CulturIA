@@ -1,5 +1,38 @@
 [
   {
+    "dia": 128,
+    "fecha": "2026-05-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La rendición de Breda'?",
+        "opciones": [
+          "Diego Velázquez",
+          "Francisco de Goya",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la cuna del famoso escritor Vicente Blasco Ibáñez",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Benito Pérez Galdós",
+          "Emilia Pardo Bazán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, errores pasados son experiencia para acertar en el futuro! 🤦‍♂️💡"
+  },
+  {
     "dia": 127,
     "fecha": "2026-05-08",
     "preguntas": [
