@@ -1,5 +1,38 @@
 [
   {
+    "dia": 129,
+    "fecha": "2026-05-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El cuadro de la vida'",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Oviedo es conocida por ser la capital de la Comunidad Autónoma de Cataluña",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Leopoldo Alas",
+          "Benito Pérez Galdós"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para que te funcione el cerebro! 🧠🥘"
+  },
+  {
     "dia": 128,
     "fecha": "2026-05-09",
     "preguntas": [
