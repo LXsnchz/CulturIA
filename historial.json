@@ -1,5 +1,38 @@
 [
   {
+    "dia": 130,
+    "fecha": "2026-05-11",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El jardín de las delicias terrenales'?",
+        "opciones": [
+          "Hieronymus Bosch",
+          "El Greco",
+          "Velázquez"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Zaragoza es conocida por ser la capital de la Comunidad Autónoma de Aragón",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región más Transparente'?",
+        "opciones": [
+          "Carlos Fuentes",
+          "Miguel de Unamuno",
+          "Juan Rulfo"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que necesitas un poco más de 'cultura' 🤣📚, ¡no te preocupes, sigue intentándolo! 😉"
+  },
+  {
     "dia": 129,
     "fecha": "2026-05-10",
     "preguntas": [
