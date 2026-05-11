@@ -1,5 +1,38 @@
 [
   {
+    "dia": 131,
+    "fecha": "2026-05-12",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El laberinto mágico'?",
+        "opciones": [
+          "Max Aub",
+          "Miguel de Cervantes",
+          "Camilo José Cela"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por ser la ciudad con el mayor número de monumentos islámicos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La maja desnuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 130,
     "fecha": "2026-05-11",
     "preguntas": [
