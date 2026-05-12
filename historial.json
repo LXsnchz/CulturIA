@@ -1,5 +1,38 @@
 [
   {
+    "dia": 132,
+    "fecha": "2026-05-13",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benidorm?",
+        "opciones": [
+          "Festival de Benidorm",
+          "Festival de la Costa Blanca",
+          "Festival Internacional de Música de Benidorm"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es conocida por ser la ciudad con el mayor número de playas de la Costa Brava",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La viña'",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has estado muy 'culto'! 😂📚 No te preocupes, mañana es otro día... o no 🤣"
+  },
+  {
     "dia": 131,
     "fecha": "2026-05-12",
     "preguntas": [
