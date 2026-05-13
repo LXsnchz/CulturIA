@@ -1,5 +1,38 @@
 [
   {
+    "dia": 133,
+    "fecha": "2026-05-14",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La lámpara'",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por ser la ciudad con el mayor número de iglesias de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región más Transparente'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Pablo Neruda",
+          "Alfonso Reyes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Ay, caramba! 😂 Parece que necesitas un poco más de CulturIA en tu vida... 🤓📚"
+  },
+  {
     "dia": 132,
     "fecha": "2026-05-13",
     "preguntas": [
