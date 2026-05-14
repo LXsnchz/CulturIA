@@ -1,5 +1,38 @@
 [
   {
+    "dia": 134,
+    "fecha": "2026-05-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "Francisco de Goya",
+          "El Greco",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Madrid es conocida por ser la ciudad con el mayor número de museos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Leopoldo Alas",
+          "Benito Pérez Galdós"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres el único que no sabe! 😂🤦‍♂️"
+  },
+  {
     "dia": 133,
     "fecha": "2026-05-14",
     "preguntas": [
