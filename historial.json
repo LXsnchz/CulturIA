@@ -1,5 +1,38 @@
 [
   {
+    "dia": 135,
+    "fecha": "2026-05-16",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la provincia de León?",
+        "opciones": [
+          "Parque Nacional de Doñana",
+          "Parque Nacional de los Picos de Europa",
+          "Parque Nacional de Teide"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la ciudad con el mayor número de playas de la Costa del Sol",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso compositor español que creó la obra 'Asturias'",
+        "opciones": [
+          "Isaac Albéniz",
+          "Enrique Granados",
+          "Manuel de Falla"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que necesitas un poco de cultura general española en tu vida... o un GPS para encontrar las respuestas 😂🗺️"
+  },
+  {
     "dia": 134,
     "fecha": "2026-05-15",
     "preguntas": [
