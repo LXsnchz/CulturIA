@@ -1,5 +1,38 @@
 [
   {
+    "dia": 136,
+    "fecha": "2026-05-17",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso río que atraviesa la ciudad de Valencia?",
+        "opciones": [
+          "Río Turia",
+          "Río Ebro",
+          "Río Segura"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por ser la ciudad con el mayor número de parques de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Pobre! Parece que necesitas un poco de CulturIA en tu vida 😂📚"
+  },
+  {
     "dia": 135,
     "fecha": "2026-05-16",
     "preguntas": [
