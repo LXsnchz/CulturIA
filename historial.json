@@ -1,5 +1,38 @@
 [
   {
+    "dia": 138,
+    "fecha": "2026-05-19",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región más Transparente'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Ramón María del Valle-Inclán",
+          "Alfonso Reyes"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la cuna del famoso escritor Miguel de Cervantes",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "El Greco",
+          "Diego Velázquez",
+          "Francisco de Zurbarán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que tu cerebro se ha ido de vacaciones! 🏖️🤣, ¡vuelve pronto! 😂"
+  },
+  {
     "dia": 137,
     "fecha": "2026-05-18",
     "preguntas": [
