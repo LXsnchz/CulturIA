@@ -1,5 +1,38 @@
 [
   {
+    "dia": 139,
+    "fecha": "2026-05-20",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benidorm?",
+        "opciones": [
+          "Festival de Música de Benidorm",
+          "Festival de Jazz de Valencia",
+          "Festival de Música de Ibiza"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Girona es conocida por su arquitectura barroca",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La familia de Carlos IV'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Tienes menos cultura que un yogur sin azúcar! 🤣🥛"
+  },
+  {
     "dia": 138,
     "fecha": "2026-05-19",
     "preguntas": [
