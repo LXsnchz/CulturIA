@@ -1,5 +1,38 @@
 [
   {
+    "dia": 140,
+    "fecha": "2026-05-21",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Edvard Munch",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por su acueducto romano",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, no te rindas! 😂👊 Aún tienes 365 días para aprender sobre la cultura española 🇪🇸📚"
+  },
+  {
     "dia": 139,
     "fecha": "2026-05-20",
     "preguntas": [
