@@ -1,5 +1,38 @@
 [
   {
+    "dia": 141,
+    "fecha": "2026-05-22",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Joan Miró",
+          "Salvador Dalí",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santiago de Compostela es conocida por ser la capital de la Comunidad Autónoma de Galicia",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El amor en los tiempos del cólera'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Vicente Blasco Ibáñez"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Eh, parece que has fallado! 🤦‍♂️ No te preocupes, es normal... o eso te digo para que no te sientas mal 😂👍"
+  },
+  {
     "dia": 140,
     "fecha": "2026-05-21",
     "preguntas": [
