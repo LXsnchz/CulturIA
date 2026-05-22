@@ -1,5 +1,38 @@
 [
   {
+    "dia": 142,
+    "fecha": "2026-05-23",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'Las meninas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la ciudad natal de Pablo Picasso",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Pamplona?",
+        "opciones": [
+          "Festival de San Fermín",
+          "Festival de Jazz de Madrid",
+          "Festival de Música de Barcelona"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Pobre! 😂 Parece que necesitas un poco más de CulturIA en tu vida... 🤓📚"
+  },
+  {
     "dia": 141,
     "fecha": "2026-05-22",
     "preguntas": [
