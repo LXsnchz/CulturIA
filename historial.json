@@ -1,5 +1,38 @@
 [
   {
+    "dia": 143,
+    "fecha": "2026-05-24",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso río que atraviesa la ciudad de Sevilla?",
+        "opciones": [
+          "Río Tajo",
+          "Río Guadalquivir",
+          "Río Ebro"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Toledo es conocida por ser la ciudad con el mayor número de monumentos históricos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres tonto, solo necesitas un poco de CulturIA! 🤓📚😂"
+  },
+  {
     "dia": 142,
     "fecha": "2026-05-23",
     "preguntas": [
