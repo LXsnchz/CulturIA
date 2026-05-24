@@ -1,5 +1,38 @@
 [
   {
+    "dia": 144,
+    "fecha": "2026-05-25",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso poeta español que escribió 'Cantico Espiritual'?",
+        "opciones": [
+          "San Juan de la Cruz",
+          "Miguel de Cervantes",
+          "Federico García Lorca"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por ser la ciudad universitaria más antigua de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso científico español que descubrió la vacuna contra la rabia?",
+        "opciones": [
+          "Santiago Ramón y Cajal",
+          "Alexander Fleming",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂 No te preocupes, sigue intentándolo, que la suerte es como la paella, a veces sale bien y a veces sale... ¡con arroz pegado! 🍚😂"
+  },
+  {
     "dia": 143,
     "fecha": "2026-05-24",
     "preguntas": [
