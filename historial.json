@@ -1,5 +1,38 @@
 [
   {
+    "dia": 145,
+    "fecha": "2026-05-26",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito de la monarquía'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pablo Picasso",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cádiz es conocida por ser la ciudad más antigua de Europa Occidental",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Cervantes",
+          "Gabriel García Márquez"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, igual tienes suerte en el amor! 😉💘"
+  },
+  {
     "dia": 144,
     "fecha": "2026-05-25",
     "preguntas": [
