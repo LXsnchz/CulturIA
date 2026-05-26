@@ -1,5 +1,38 @@
 [
   {
+    "dia": 146,
+    "fecha": "2026-05-27",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso arquitecto español que diseñó el edificio de la Sagrada Familia en Barcelona?",
+        "opciones": [
+          "Antoni Gaudí",
+          "Frank Gehry",
+          "Ricardo Bofill"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de San Sebastián es conocida por ser la capital gastronómica de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de cine que se celebra en la ciudad de San Sebastián?",
+        "opciones": [
+          "Festival de Cine de San Sebastián",
+          "Festival de Cine de Málaga",
+          "Festival de Cine de Valladolid"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que te has perdido en la cultura española! 🗺️😂 No te preocupes, sigue intentándolo, ¡quizás un día seas un experto en paella y flamenco! 🍴🔥"
+  },
+  {
     "dia": 145,
     "fecha": "2026-05-26",
     "preguntas": [
