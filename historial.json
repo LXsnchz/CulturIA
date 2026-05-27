@@ -1,5 +1,38 @@
 [
   {
+    "dia": 147,
+    "fecha": "2026-05-28",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso monumento que se encuentra en la ciudad de Córdoba y es Patrimonio de la Humanidad por la UNESCO?",
+        "opciones": [
+          "La Mezquita",
+          "El Alcázar",
+          "La Catedral"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santander es conocida por ser la capital de la Comunidad Autónoma de Cantabria",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La noche estrellada'?",
+        "opciones": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para engrasar tus neuronas! 🧠💡🥘"
+  },
+  {
     "dia": 146,
     "fecha": "2026-05-27",
     "preguntas": [
