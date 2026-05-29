@@ -1,5 +1,38 @@
 [
   {
+    "dia": 148,
+    "fecha": "2026-05-29",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la isla de Tenerife?",
+        "opciones": [
+          "Parque Nacional de Teide",
+          "Parque Nacional de Garajonay",
+          "Parque Nacional de Timanfaya"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Bilbao es conocida por ser la capital de la Comunidad Autónoma del País Vasco",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Juan Ramón Jiménez",
+          "Rafael Alberti"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂🤦‍♂️ No te preocupes, la cultura española es como la paella, hay que revolver un poco para encontrar el ingrediente correcto 🍚👏"
+  },
+  {
     "dia": 147,
     "fecha": "2026-05-28",
     "preguntas": [
