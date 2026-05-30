@@ -1,5 +1,38 @@
 [
   {
+    "dia": 150,
+    "fecha": "2026-05-31",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso río que atraviesa la ciudad de Zaragoza?",
+        "opciones": [
+          "Río Ebro",
+          "Río Tajo",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Oviedo es conocida por ser la capital de la Comunidad Autónoma de Asturias",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Vitoria?",
+        "opciones": [
+          "Festival de Jazz de Vitoria",
+          "Festival de Música de Cámara de Vitoria",
+          "Azkena Rock Festival"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has sido el rey de la cultura española! 😂👑 No te preocupes, mañana es otro día... 🌞"
+  },
+  {
     "dia": 149,
     "fecha": "2026-05-30",
     "preguntas": [
