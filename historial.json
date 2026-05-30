@@ -1,5 +1,38 @@
 [
   {
+    "dia": 149,
+    "fecha": "2026-05-30",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Salvador Dalí"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la cuna del famoso escritor Miguel de Cervantes",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso científico español que descubrió la vacuna contra la rabia?",
+        "opciones": [
+          "Santiago Ramón y Cajal",
+          "Alexander Fleming",
+          "Louis Pasteur"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te rindas! 🤣 Seguro que sabes más de lo que crees 🤓, ¡inténtalo de nuevo! 💪"
+  },
+  {
     "dia": 148,
     "fecha": "2026-05-29",
     "preguntas": [
