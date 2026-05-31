@@ -1,5 +1,38 @@
 [
   {
+    "dia": 151,
+    "fecha": "2026-06-01",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Salvador Dalí"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es conocida por ser la ciudad con el mayor número de playas de la Costa Blanca",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del Ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Rafael Pérez y Pérez"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres tonto, solo necesitas un poco de CulturIA! 🤓📚😂"
+  },
+  {
     "dia": 150,
     "fecha": "2026-05-31",
     "preguntas": [
