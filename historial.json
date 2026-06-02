@@ -1,5 +1,38 @@
 [
   {
+    "dia": 152,
+    "fecha": "2026-06-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La vida es sueño'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "António de Pereda"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Córdoba es conocida por ser la ciudad con el mayor número de patios de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La casa de los espíritus'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Isabel Allende"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, aunque falles, siempre tendrás el sol de España para calentarte! ☀️😂"
+  },
+  {
     "dia": 151,
     "fecha": "2026-06-01",
     "preguntas": [
