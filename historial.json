@@ -1,5 +1,38 @@
 [
   {
+    "dia": 153,
+    "fecha": "2026-06-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso compositor español que creó la obra 'La vida breve'?",
+        "opciones": [
+          "Manuel de Falla",
+          "Enrique Granados",
+          "Isaac Albéniz"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por ser la ciudad con el mayor número de estudiantes de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'Los fusilamientos del 3 de mayo'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has estudiado nada! 🤦‍♂️📚"
+  },
+  {
     "dia": 152,
     "fecha": "2026-06-02",
     "preguntas": [
