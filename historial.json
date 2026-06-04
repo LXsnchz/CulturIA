@@ -1,5 +1,38 @@
 [
   {
+    "dia": 155,
+    "fecha": "2026-06-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La maja desnuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pablo Picasso",
+          "Salvador Dalí"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Madrid es conocida por ser la ciudad más grande de España en términos de población",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Ibiza?",
+        "opciones": [
+          "Ultra Music Festival",
+          "Tomorrowland",
+          "Ibiza Rocks"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco más de 'aceite de oliva' para lubricar tu cerebro! 😂🥘"
+  },
+  {
     "dia": 154,
     "fecha": "2026-06-04",
     "preguntas": [
