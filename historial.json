@@ -1,5 +1,38 @@
 [
   {
+    "dia": 154,
+    "fecha": "2026-06-04",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Don Quijote de la Mancha'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "García Márquez"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es conocida por ser la ciudad con el mayor número de playas de la Costa Brava",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El jardín de las delicias terrenales'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Hieronymus Bosch"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de tapas para la mente! 🤯👀"
+  },
+  {
     "dia": 153,
     "fecha": "2026-06-03",
     "preguntas": [
