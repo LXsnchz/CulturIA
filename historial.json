@@ -1,5 +1,38 @@
 [
   {
+    "dia": 156,
+    "fecha": "2026-06-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la isla de Fuerteventura?",
+        "opciones": [
+          "Parque Nacional de Doñana",
+          "Parque Nacional de Teide",
+          "Parque Natural de Corralejo"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de León es conocida por ser la capital de la Comunidad Autónoma de Castilla y León",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del viento'?",
+        "opciones": [
+          "Carlos Ruiz Zafón",
+          "Miguel de Cervantes",
+          "Jorge Luis Borges"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que tu cerebro se ha ido de vacaciones a la playa de la Barceloneta 🏖️😂, vuelve pronto!"
+  },
+  {
     "dia": 155,
     "fecha": "2026-06-05",
     "preguntas": [
