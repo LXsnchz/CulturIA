@@ -1,5 +1,38 @@
 [
   {
+    "dia": 157,
+    "fecha": "2026-06-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La vendimia'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por ser la ciudad con el mayor número de palacios de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Celestina'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Fernando de Rojas",
+          "Gonzalo de Berceo"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres un 'toro' en cultura española... todavía! 🐃😂"
+  },
+  {
     "dia": 156,
     "fecha": "2026-06-06",
     "preguntas": [
