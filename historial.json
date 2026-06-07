@@ -1,5 +1,38 @@
 [
   {
+    "dia": 158,
+    "fecha": "2026-06-08",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Lorca?",
+        "opciones": [
+          "Festival de Música de Lorca",
+          "Festival de Jazz de Lorca",
+          "Festival de Rock de Lorca"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Huelva es conocida por ser la ciudad con el mayor número de playas de la Costa de la Luz",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La arboleda perdida'?",
+        "opciones": [
+          "Cristina Fernández Cubas",
+          "Julio Cortázar",
+          "Miguel Delibes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de cultura española en tu vida! 😂📚 No te preocupes, te ayudaré a mejorar... o a divertirte intentándolo 🤣"
+  },
+  {
     "dia": 157,
     "fecha": "2026-06-07",
     "preguntas": [
