@@ -1,5 +1,38 @@
 [
   {
+    "dia": 159,
+    "fecha": "2026-06-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la Sierra de Guadarrama?",
+        "opciones": [
+          "Parque Nacional de Doñana",
+          "Parque Nacional de la Sierra de Guadarrama",
+          "Parque Nacional de Ordesa y Monte Perdido"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la cuna del famoso escritor Vicente Blasco Ibáñez",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Goya"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has perdido en la meseta! 🗺️😂"
+  },
+  {
     "dia": 158,
     "fecha": "2026-06-08",
     "preguntas": [
