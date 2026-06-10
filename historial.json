@@ -1,5 +1,38 @@
 [
   {
+    "dia": 160,
+    "fecha": "2026-06-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El cuadro de las meninas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la ciudad con el mayor número de playas de la Costa del Sol",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Miguel de Cervantes",
+          "Benito Pérez Galdós"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! 😂 Parece que necesitas un poco de CulturIA en tu vida... o no 🤣. ¡Sigue intentándolo! 💪"
+  },
+  {
     "dia": 159,
     "fecha": "2026-06-09",
     "preguntas": [
