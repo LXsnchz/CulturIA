@@ -1,5 +1,38 @@
 [
   {
+    "dia": 161,
+    "fecha": "2026-06-11",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso compositor español que creó la obra 'Concierto de Aranjuez'?",
+        "opciones": [
+          "Manuel de Falla",
+          "Joaquín Rodrigo",
+          "Isaac Albéniz"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por ser la ciudad con el mayor número de castillos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La familia de Carlos IV'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has perdido en la ruta de la CulturIA! 🚶‍♂️🗺️ No te preocupes, sigue adelante y no te rindas... o sí, que también es divertido 😂🥘"
+  },
+  {
     "dia": 160,
     "fecha": "2026-06-10",
     "preguntas": [
