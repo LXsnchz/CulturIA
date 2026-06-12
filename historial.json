@@ -1,5 +1,38 @@
 [
   {
+    "dia": 162,
+    "fecha": "2026-06-12",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El ángelus'?",
+        "opciones": [
+          "Joan Miró",
+          "Salvador Dalí",
+          "Jean-François Millet"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Girona es conocida por ser la ciudad con el mayor número de puentes de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Jorge Luis Borges",
+          "Carlos Fuentes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas 🧠🥘😂"
+  },
+  {
     "dia": 161,
     "fecha": "2026-06-11",
     "preguntas": [
