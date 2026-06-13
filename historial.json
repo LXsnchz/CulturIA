@@ -1,5 +1,38 @@
 [
   {
+    "dia": 163,
+    "fecha": "2026-06-13",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por ser la ciudad con el mayor número de palacios de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benidorm?",
+        "opciones": [
+          "Festival de Música de Benidorm",
+          "Festival de Jazz de Madrid",
+          "Festival de Música de Barcelona"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has estado muy ' Españoleta'! 😂🎉"
+  },
+  {
     "dia": 162,
     "fecha": "2026-06-12",
     "preguntas": [
