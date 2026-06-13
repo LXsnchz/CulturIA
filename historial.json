@@ -1,5 +1,38 @@
 [
   {
+    "dia": 164,
+    "fecha": "2026-06-14",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El cuadro de las lavanderas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Toledo es conocida por ser la ciudad con el mayor número de catedrales góticas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Javier Marías",
+          "Alfonso Reyes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tu cerebro! 🧠💡😂"
+  },
+  {
     "dia": 163,
     "fecha": "2026-06-13",
     "preguntas": [
