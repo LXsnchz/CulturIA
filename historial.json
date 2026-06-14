@@ -1,5 +1,38 @@
 [
   {
+    "dia": 165,
+    "fecha": "2026-06-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque natural español que se encuentra en la provincia de Cádiz?",
+        "opciones": [
+          "Parque Natural de la Sierra de Grazalema",
+          "Parque Natural de la Sierra de Aracena",
+          "Parque Natural de la Sierra de Cazorla"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la ciudad natal del pintor Pablo Picasso",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música flamenco que se celebra en la localidad de Jerez de la Frontera?",
+        "opciones": [
+          "Festival de Música de Jerez",
+          "Festival de Flamenco de Jerez",
+          "Festival Internacional de Música de Jerez"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠💡🥘"
+  },
+  {
     "dia": 164,
     "fecha": "2026-06-14",
     "preguntas": [
