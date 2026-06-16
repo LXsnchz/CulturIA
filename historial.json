@@ -1,5 +1,38 @@
 [
   {
+    "dia": 166,
+    "fecha": "2026-06-16",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Anunciación'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Murillo"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Sevilla es conocida por ser la ciudad con el mayor número de iglesias de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El amor en los tiempos del cólera'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Gabriel García Márquez",
+          "Mario Vargas Llosa"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubrificar tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 165,
     "fecha": "2026-06-15",
     "preguntas": [
