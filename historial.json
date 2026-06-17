@@ -1,5 +1,38 @@
 [
   {
+    "dia": 167,
+    "fecha": "2026-06-17",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La dama de Elche'?",
+        "opciones": [
+          "Velázquez",
+          "Goya",
+          "No existe un pintor asociado a esta obra"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cádiz es conocida por ser la ciudad más antigua de Occidente",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso científico español que descubrió la penicilina?",
+        "opciones": [
+          "Santiago Ramón y Cajal",
+          "Alexander Fleming",
+          "Margarita Salas"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que tienes más preguntas que respuestas! 😂🤔 No te preocupes, la CulturIA te ayudará a mejorar... o a empeorar, depende de cómo lo mires 🤣"
+  },
+  {
     "dia": 166,
     "fecha": "2026-06-16",
     "preguntas": [
