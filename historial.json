@@ -1,5 +1,38 @@
 [
   {
+    "dia": 168,
+    "fecha": "2026-06-18",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La noche estrellada'?",
+        "opciones": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santiago de Compostela es conocida por ser la capital de la Comunidad Autónoma de Galicia",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres un 'bot' de cultura general... o sí? 😂🤖"
+  },
+  {
     "dia": 167,
     "fecha": "2026-06-17",
     "preguntas": [
