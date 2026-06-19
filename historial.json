@@ -1,5 +1,38 @@
 [
   {
+    "dia": 170,
+    "fecha": "2026-06-20",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Benito Pérez Galdós",
+          "Vicente Blasco Ibáñez"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Teruel es conocida por ser la ciudad con el mayor número de mudéjares de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque natural español que se encuentra en la provincia de Ávila?",
+        "opciones": [
+          "Sierra de Gredos",
+          "Sierra de Guadarrama",
+          "Sierra de Ayllón"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂🥘 No te preocupes, la cultura española es vasta y emocionante, pero no te rindas, sigue intentándolo! 🤓📚"
+  },
+  {
     "dia": 169,
     "fecha": "2026-06-19",
     "preguntas": [
