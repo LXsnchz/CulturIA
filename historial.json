@@ -1,5 +1,38 @@
 [
   {
+    "dia": 169,
+    "fecha": "2026-06-19",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso monumento de España que se encuentra en la ciudad de Mérida?",
+        "opciones": [
+          "Acueducto de Segovia",
+          "Teatro Romano de Mérida",
+          "Catedral de Santiago de Compostela"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de San Sebastián es conocida por ser la ciudad con el mayor número de premios gastronómicos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La fuente'",
+        "opciones": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que te has perdido en la meseta 🤣🗺️"
+  },
+  {
     "dia": 168,
     "fecha": "2026-06-18",
     "preguntas": [
