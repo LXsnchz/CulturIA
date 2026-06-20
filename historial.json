@@ -1,5 +1,38 @@
 [
   {
+    "dia": 171,
+    "fecha": "2026-06-21",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pablo Picasso",
+          "Edvard Munch"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Zaragoza es conocida por ser la ciudad con el mayor número de ríos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Vitoria?",
+        "opciones": [
+          "Festival de Jazz de Vitoria",
+          "Festival de Música de Cámara de Vitoria",
+          "Azkena Rock Festival"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Pobre diablo! 🤦‍♂️ Has fallado, pero no te preocupes, ¡mañana es otro día! 🌞😂"
+  },
+  {
     "dia": 170,
     "fecha": "2026-06-20",
     "preguntas": [
