@@ -1,5 +1,38 @@
 [
   {
+    "dia": 173,
+    "fecha": "2026-06-23",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso río que atraviesa la ciudad de Córdoba?",
+        "opciones": [
+          "Río Guadalquivir",
+          "Río Tajo",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Bilbao es conocida por ser la capital de la Comunidad Autónoma del País Vasco",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'Las señoritas de Aviñón'?",
+        "opciones": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva en el cerebro para recordar mejor! 🧠💡😂"
+  },
+  {
     "dia": 172,
     "fecha": "2026-06-22",
     "preguntas": [
