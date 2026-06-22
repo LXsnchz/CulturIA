@@ -1,5 +1,38 @@
 [
   {
+    "dia": 172,
+    "fecha": "2026-06-22",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Francisco de Goya"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es conocida por ser la ciudad con el mayor número de playas de la Costa Blanca",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Murcia?",
+        "opciones": [
+          "Festival de Música de Murcia",
+          "Festival de Jazz de San Javier",
+          "Festival de Teatro de Caravaca"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas 😂🧠"
+  },
+  {
     "dia": 171,
     "fecha": "2026-06-21",
     "preguntas": [
