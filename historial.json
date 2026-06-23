@@ -1,5 +1,38 @@
 [
   {
+    "dia": 174,
+    "fecha": "2026-06-24",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del Ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por ser la ciudad con el mayor número de universidades de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La tertulia de Pombo'?",
+        "opciones": [
+          "José Gutiérrez Solana",
+          "Ignacio Zuloaga",
+          "Darío de Regoyos"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que necesitas un poco de 'aceite de oliva' para lubricar tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 173,
     "fecha": "2026-06-23",
     "preguntas": [
