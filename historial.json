@@ -1,5 +1,38 @@
 [
   {
+    "dia": 175,
+    "fecha": "2026-06-25",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito de la monarquía'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pablo Picasso",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la ciudad con el mayor número de fiestas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La casa de los espíritus'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Isabel Allende",
+          "Gabriel García Márquez"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que tu cerebro está en modo 'siesta'! 😴🤣"
+  },
+  {
     "dia": 174,
     "fecha": "2026-06-24",
     "preguntas": [
