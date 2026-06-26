@@ -1,5 +1,38 @@
 [
   {
+    "dia": 177,
+    "fecha": "2026-06-27",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en las islas Canarias?",
+        "opciones": [
+          "Parque Nacional de Doñana",
+          "Parque Nacional de Ordesa y Monte Perdido",
+          "Parque Nacional del Teide"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es Patrimonio de la Humanidad por la UNESCO",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del viento'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Ruiz Zafón",
+          "Gabriel García Márquez"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, igual te sale mejor en la próxima! 😜🤦‍♂️"
+  },
+  {
     "dia": 176,
     "fecha": "2026-06-26",
     "preguntas": [
