@@ -1,5 +1,38 @@
 [
   {
+    "dia": 176,
+    "fecha": "2026-06-26",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El jardín de las delicias terrenales'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Hieronymus Bosch",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es conocida por ser la ciudad con el mayor número de museos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Don Quijote de la Mancha'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Vicente Blasco Ibáñez",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que todavía necesitas un poco más de tortilla de patatas para despertar tu cerebro! 🥔👀"
+  },
+  {
     "dia": 175,
     "fecha": "2026-06-25",
     "preguntas": [
