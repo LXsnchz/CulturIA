@@ -1,5 +1,38 @@
 [
   {
+    "dia": 179,
+    "fecha": "2026-06-29",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Juan Ramón Jiménez",
+          "Miguel de Cervantes",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Pamplona es conocida por ser la ciudad con el mayor número de fiestas de toros de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Venus de las pieles'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has perdido en la meseta! 😂🗺️"
+  },
+  {
     "dia": 178,
     "fecha": "2026-06-28",
     "preguntas": [
