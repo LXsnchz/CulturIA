@@ -1,5 +1,38 @@
 [
   {
+    "dia": 180,
+    "fecha": "2026-06-30",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso científico español que descubrió la vacuna contra la rabia?",
+        "opciones": [
+          "Santiago Ramón y Cajal",
+          "Miguel de Unamuno",
+          "Jaime Ferrán"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de León es conocida por ser la ciudad con el mayor número de termas romanas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La malicia'",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy no has estado muy 'culto'! 😂📚 No te preocupes, sigue intentándolo, ¡mañana es otro día! 🌞"
+  },
+  {
     "dia": 179,
     "fecha": "2026-06-29",
     "preguntas": [
