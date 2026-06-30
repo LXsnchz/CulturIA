@@ -1,5 +1,38 @@
 [
   {
+    "dia": 181,
+    "fecha": "2026-07-01",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del Ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Oviedo es conocida por ser la ciudad con el mayor número de monumentos románicos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La rendición de Breda'?",
+        "opciones": [
+          "Diego Velázquez",
+          "Francisco de Zurbarán",
+          "Bartolomé Esteban Murillo"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Hoy has fallado, pero no te preocupes, mañana serás el rey de la cultura española! 🤣👑"
+  },
+  {
     "dia": 180,
     "fecha": "2026-06-30",
     "preguntas": [
