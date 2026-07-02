@@ -1,5 +1,38 @@
 [
   {
+    "dia": 183,
+    "fecha": "2026-07-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El akelarre'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Girona es conocida por ser la ciudad con el mayor número de puentes medievales de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La familia de Pascual Duarte'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠💡🔥"
+  },
+  {
     "dia": 182,
     "fecha": "2026-07-02",
     "preguntas": [
