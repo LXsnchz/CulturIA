@@ -1,5 +1,38 @@
 [
   {
+    "dia": 182,
+    "fecha": "2026-07-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El sueño de Jacob'?",
+        "opciones": [
+          "Velázquez",
+          "Murillo",
+          "Ribera"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por ser la ciudad con el mayor número de castillos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Araucana'?",
+        "opciones": [
+          "Alonso de Ercilla",
+          "Lope de Vega",
+          "Cervantes"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has perdido en la meseta! 🗺️😂"
+  },
+  {
     "dia": 181,
     "fecha": "2026-07-01",
     "preguntas": [
