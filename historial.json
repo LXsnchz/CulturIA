@@ -1,5 +1,38 @@
 [
   {
+    "dia": 185,
+    "fecha": "2026-07-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La maja desnuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Toledo es conocida por ser la ciudad con el mayor número de sinagogas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Celestina'?",
+        "opciones": [
+          "Fernando de Rojas",
+          "Miguel de Cervantes",
+          "Lope de Vega"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 184,
     "fecha": "2026-07-04",
     "preguntas": [
