@@ -1,5 +1,38 @@
 [
   {
+    "dia": 186,
+    "fecha": "2026-07-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque natural español que se encuentra en la isla de Fuerteventura?",
+        "opciones": [
+          "Corralejo",
+          "Jandía",
+          "Tamadaba"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la ciudad natal de Pablo Picasso",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benidorm?",
+        "opciones": [
+          "FIB",
+          "BBK Live",
+          "Low Festival"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, igual puedes ganar en la ruleta de la suerte! 🎲😂"
+  },
+  {
     "dia": 185,
     "fecha": "2026-07-05",
     "preguntas": [
