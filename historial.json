@@ -1,5 +1,38 @@
 [
   {
+    "dia": 187,
+    "fecha": "2026-07-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La vida de Lazarillo de Tormes'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Anónimo"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por ser la ciudad con el mayor número de palacios de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso artista español que creó la obra 'Guernica'?",
+        "opciones": [
+          "Salvador Dalí",
+          "Pablo Picasso",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 😂🤦‍♂️ No te preocupes, inténtalo de nuevo, ¡o llama a un amigo que sepa de cultura española! 📚👫"
+  },
+  {
     "dia": 186,
     "fecha": "2026-07-06",
     "preguntas": [
