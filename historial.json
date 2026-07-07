@@ -1,5 +1,38 @@
 [
   {
+    "dia": 188,
+    "fecha": "2026-07-08",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Benicàssim?",
+        "opciones": [
+          "Festival de Música de Barcelona",
+          "Festival de Jazz de Madrid",
+          "Festival Internacional de Benicàssim"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cádiz es conocida por ser la ciudad más antigua de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La mujer barbuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "José de Ribera"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Ay, caramba! 😂 Parece que necesitas un poco más de CulturIA en tu vida... 📚💡"
+  },
+  {
     "dia": 187,
     "fecha": "2026-07-07",
     "preguntas": [
