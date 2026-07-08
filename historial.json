@@ -1,5 +1,38 @@
 [
   {
+    "dia": 189,
+    "fecha": "2026-07-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "Francisco de Goya",
+          "El Greco",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santiago de Compostela es conocida por ser la capital de la Comunidad Autónoma de Galicia",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que tu cerebro está en modo 'siesta'! 😴💤, ¡despierta y sigue intentándolo! 🎉😂"
+  },
+  {
     "dia": 188,
     "fecha": "2026-07-08",
     "preguntas": [
