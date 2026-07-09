@@ -1,5 +1,38 @@
 [
   {
+    "dia": 190,
+    "fecha": "2026-07-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Doña Perfecta'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Leopoldo Alas",
+          "Emilia Pardo Bazán"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santander es conocida por ser la ciudad con el mayor número de playas de la Costa Cantábrica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El retrato de la reina María de Hungría'?",
+        "opciones": [
+          "Diego Velázquez",
+          "Francisco de Zurbarán",
+          "Alonso Sánchez Coello"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has quedado en 'la plaza del pueblo'! 😂🥘"
+  },
+  {
     "dia": 189,
     "fecha": "2026-07-09",
     "preguntas": [
