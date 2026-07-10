@@ -1,5 +1,38 @@
 [
   {
+    "dia": 191,
+    "fecha": "2026-07-11",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La dama de Elche'?",
+        "opciones": [
+          "Velázquez",
+          "Goya",
+          "No existe, es una escultura"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Madrid es conocida por ser la ciudad con el mayor número de teatros de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El amor en los tiempos del cólera' no, espera, eso es de García Márquez, ¿Cuál es el nombre del famoso escritor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Ramón María del Valle-Inclán",
+          "Alfonso Reyes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! 😂 Parece que necesitas un poco de CulturIA en tu vida... o maybe un café ☕️ para despertar ese cerebro 🧠"
+  },
+  {
     "dia": 190,
     "fecha": "2026-07-10",
     "preguntas": [
