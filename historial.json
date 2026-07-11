@@ -1,5 +1,38 @@
 [
   {
+    "dia": 192,
+    "fecha": "2026-07-12",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso autor español que escribió 'La Región Más Transparente'?",
+        "opciones": [
+          "Javier Marías",
+          "Carlos Fuentes",
+          "Alfonso Reyes"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Zaragoza es conocida por ser la ciudad con el mayor número de festivales de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El cuadro de la vida'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que hoy te has despertado con el pie izquierdo... o puede que con el derecho, porque no has acertado ni una! 😂👣"
+  },
+  {
     "dia": 191,
     "fecha": "2026-07-11",
     "preguntas": [
