@@ -1,5 +1,38 @@
 [
   {
+    "dia": 193,
+    "fecha": "2026-07-13",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque natural español que se encuentra en la Sierra de Grazalema?",
+        "opciones": [
+          "Parque Natural de la Sierra de Grazalema",
+          "Parque Nacional de Doñana",
+          "Parque Natural de la Sierra de Cazorla"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es conocida por ser la ciudad con el mayor número de playas de la Costa Blanca",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Benito Pérez Galdós",
+          "Vicente Blasco Ibáñez"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No has acertado! 😂 Parece que necesitas un poco de 'tapas' de conocimiento 🥘👀"
+  },
+  {
     "dia": 192,
     "fecha": "2026-07-12",
     "preguntas": [
