@@ -1,5 +1,38 @@
 [
   {
+    "dia": 194,
+    "fecha": "2026-07-14",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'Las meninas'?",
+        "opciones": [
+          "Velázquez",
+          "Goya",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Bilbao es conocida por ser la capital de la Comunidad Autónoma de Navarra",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Vitoria?",
+        "opciones": [
+          "Festival de Jazz de Vitoria",
+          "Festival de Música de Cámara de Vitoria",
+          "Azkena Rock Festival"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! Parece que te has perdido en la geografía española 🗺️🤦‍♂️, ¡vuelve a intentarlo! 😂👍"
+  },
+  {
     "dia": 193,
     "fecha": "2026-07-13",
     "preguntas": [
