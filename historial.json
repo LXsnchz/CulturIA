@@ -1,5 +1,38 @@
 [
   {
+    "dia": 195,
+    "fecha": "2026-07-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El cuadro de la vida'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de León es conocida por ser la ciudad con el mayor número de termas romanas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del viento'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Ruiz Zafón",
+          "Jorge Luis Borges"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Tienes más errores que un menú de un restaurante de comida rápida! 🍔😂"
+  },
+  {
     "dia": 194,
     "fecha": "2026-07-14",
     "preguntas": [
