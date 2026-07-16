@@ -1,5 +1,38 @@
 [
   {
+    "dia": 197,
+    "fecha": "2026-07-17",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito'?",
+        "opciones": [
+          "Pablo Picasso",
+          "Francisco de Goya",
+          "Edvard Munch"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es conocida por ser la ciudad con el mayor número de museos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El buscador de fortunas'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Benito Pérez Galdós"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un curso de repaso sobre cultura española, tío! 😂📚"
+  },
+  {
     "dia": 196,
     "fecha": "2026-07-16",
     "preguntas": [
