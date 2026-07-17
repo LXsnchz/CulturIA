@@ -1,5 +1,38 @@
 [
   {
+    "dia": 198,
+    "fecha": "2026-07-18",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Salamanca?",
+        "opciones": [
+          "Festival de Música de Salamanca",
+          "Festival de Jazz de Madrid",
+          "Festival de Música de Barcelona"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cuenca es conocida por ser la ciudad con el mayor número de puentes de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso autor español que escribió 'La Sombra del Ciprés'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Miguel Delibes"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que has fallado! 🤦‍♂️ No te preocupes, ¡tienes 198 oportunidades más para mejorar! 😄👍"
+  },
+  {
     "dia": 197,
     "fecha": "2026-07-17",
     "preguntas": [
