@@ -1,5 +1,38 @@
 [
   {
+    "dia": 199,
+    "fecha": "2026-07-19",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en las islas de Tenerife y La Palma?",
+        "opciones": [
+          "Parque Nacional de Doñana",
+          "Parque Nacional de Teide",
+          "Parque Nacional de Ordesa y Monte Perdido"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Córdoba es conocida por ser la ciudad con el mayor número de mezquitas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Leopoldo Alas",
+          "Benito Pérez Galdós"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de 'aceite de oliva' para lubricar tu cerebro! 🥘😂"
+  },
+  {
     "dia": 198,
     "fecha": "2026-07-18",
     "preguntas": [
