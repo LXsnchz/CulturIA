@@ -1,5 +1,38 @@
 [
   {
+    "dia": 201,
+    "fecha": "2026-07-21",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Fortunata y Jacinta'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Leopoldo Alas",
+          "Vicente Blasco Ibáñez"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por ser la ciudad con el mayor número de universidades de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque natural español que se encuentra en la Sierra de Cazorla?",
+        "opciones": [
+          "Parque Natural de la Sierra de Cazorla, Segura y Las Villas",
+          "Parque Natural de Doñana",
+          "Parque Natural de Monfragüe"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠🥘😂"
+  },
+  {
     "dia": 200,
     "fecha": "2026-07-20",
     "preguntas": [
