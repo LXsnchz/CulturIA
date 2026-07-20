@@ -1,5 +1,38 @@
 [
   {
+    "dia": 200,
+    "fecha": "2026-07-20",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El triunfo de la muerte'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pieter Bruegel el Viejo",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Pamplona es conocida por ser la ciudad con el mayor número de fiestas de sanfermines de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Juan Ramón Jiménez",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Eh, tío! 🤦‍♂️ Parece que necesitas un poco de CulturIA en tu vida... 📚😂"
+  },
+  {
     "dia": 199,
     "fecha": "2026-07-19",
     "preguntas": [
