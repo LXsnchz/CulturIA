@@ -1,5 +1,38 @@
 [
   {
+    "dia": 202,
+    "fecha": "2026-07-22",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El jardín de las delicias terrenales'?",
+        "opciones": [
+          "Diego Velázquez",
+          "Francisco de Goya",
+          "Hieronymus Bosch"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Oviedo es conocida por ser la ciudad con el mayor número de monumentos prerrománicos de España",
+        "opciones": [
+          "Verdadero",
+          "Falsa"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Lorca?",
+        "opciones": [
+          "Festival de Música de Lorca",
+          "Feria de Música de Murcia",
+          "Festival de Jazz de San Javier"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que todavía no has descubierto el 'tesoro' de la cultura española! 🏹💡🔍"
+  },
+  {
     "dia": 201,
     "fecha": "2026-07-21",
     "preguntas": [
