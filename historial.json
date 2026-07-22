@@ -1,5 +1,38 @@
 [
   {
+    "dia": 203,
+    "fecha": "2026-07-23",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por ser la ciudad con el mayor número de castillos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del viento'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Ruiz Zafón",
+          "Juan Marsé"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que la cultura española te ha dejado 'en el tintero'! 📚😂"
+  },
+  {
     "dia": 202,
     "fecha": "2026-07-22",
     "preguntas": [
