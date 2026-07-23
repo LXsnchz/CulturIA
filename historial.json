@@ -1,5 +1,38 @@
 [
   {
+    "dia": 204,
+    "fecha": "2026-07-24",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque natural español que se encuentra en la Sierra de Gredos?",
+        "opciones": [
+          "Parque Natural de la Sierra de Gredos",
+          "Parque Natural de la Sierra de Cazorla",
+          "Parque Natural de la Sierra de Grazalema"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Madrid es la capital de la Comunidad Autónoma de Castilla-La Mancha",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El Quijote'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Federico García Lorca"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que te has perdido en la meseta! 🗺️😂"
+  },
+  {
     "dia": 203,
     "fecha": "2026-07-23",
     "preguntas": [
