@@ -1,5 +1,38 @@
 [
   {
+    "dia": 205,
+    "fecha": "2026-07-25",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La noche estrellada'?",
+        "opciones": [
+          "Pablo Picasso",
+          "Joan Miró",
+          "Vincent van Gogh"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la ciudad con el mayor número de fallas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La familia de Pascual Duarte'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, igual el año que viene te toca una pregunta fácil! 😜📚"
+  },
+  {
     "dia": 204,
     "fecha": "2026-07-24",
     "preguntas": [
