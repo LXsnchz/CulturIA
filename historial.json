@@ -1,5 +1,38 @@
 [
   {
+    "dia": 206,
+    "fecha": "2026-07-26",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la localidad de Getxo?",
+        "opciones": [
+          "BBK Live",
+          "Bilbao BBK Live",
+          "Getxo Festival"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Teruel es conocida por ser la ciudad con la mayor cantidad de monumentos mudéjares de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Vendimia'?",
+        "opciones": [
+          "Joan Miró",
+          "Pablo Picasso",
+          "Juan Fernández el Labrador"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de CulturIA para subir tu nivel! 🤓📚😂"
+  },
+  {
     "dia": 205,
     "fecha": "2026-07-25",
     "preguntas": [
