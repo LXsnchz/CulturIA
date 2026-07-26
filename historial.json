@@ -1,5 +1,38 @@
 [
   {
+    "dia": 207,
+    "fecha": "2026-07-27",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa la ciudad de Logroño?",
+        "opciones": [
+          "Río Ebro",
+          "Río Tajo",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la ciudad con el mayor número de museos de la Costa del Sol",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El akelarre'",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "José de Ribera"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Ay caramba! 🤦‍♂️ Parece que tu cultura general española necesita un poco de paella para mejorar 🍚😂"
+  },
+  {
     "dia": 206,
     "fecha": "2026-07-26",
     "preguntas": [
