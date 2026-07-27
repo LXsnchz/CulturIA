@@ -1,5 +1,38 @@
 [
   {
+    "dia": 208,
+    "fecha": "2026-07-28",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'Los fusilamientos del 3 de mayo'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Pablo Picasso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Granada es conocida por ser la ciudad con el mayor número de palacios de la península ibérica",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Celestina'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Lope de Vega",
+          "Fernando de Rojas"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Tienes menos cultura que un yogur! 🤣📚"
+  },
+  {
     "dia": 207,
     "fecha": "2026-07-27",
     "preguntas": [
