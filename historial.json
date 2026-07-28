@@ -1,5 +1,38 @@
 [
   {
+    "dia": 209,
+    "fecha": "2026-07-29",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Anunciación'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Murillo"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Jerez de la Frontera es conocida por ser la cuna del flamenco.",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La araña negra'?",
+        "opciones": [
+          "Pío Baroja",
+          "Ramón María del Valle-Inclán",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva en el cerebro para recordar eso! 🥘😂"
+  },
+  {
     "dia": 208,
     "fecha": "2026-07-28",
     "preguntas": [
