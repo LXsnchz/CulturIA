@@ -1,5 +1,38 @@
 [
   {
+    "dia": 210,
+    "fecha": "2026-07-30",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El Greco'?",
+        "opciones": [
+          "Francisco de Zurbarán",
+          "Diego Velázquez",
+          "Doménikos Theotokópoulos"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Toledo es conocida por ser la ciudad con el mayor número de sinagogas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Rafael Alberti"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No has acertado! 😅🤦‍♂️ Parece que necesitas un poco más de CulturIA... ¡Sigue intentándolo! 💡"
+  },
+  {
     "dia": 209,
     "fecha": "2026-07-29",
     "preguntas": [
