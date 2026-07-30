@@ -1,5 +1,38 @@
 [
   {
+    "dia": 211,
+    "fecha": "2026-07-31",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El entierro del conde de Orgaz'?",
+        "opciones": [
+          "El Greco",
+          "Velázquez",
+          "Goya"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Cádiz es conocida por ser la ciudad con el mayor número de carnavales de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Doña Perfecta'?",
+        "opciones": [
+          "Benito Pérez Galdós",
+          "Leopoldo Alas",
+          "Emilia Pardo Bazán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠🥘"
+  },
+  {
     "dia": 210,
     "fecha": "2026-07-30",
     "preguntas": [
