@@ -1,5 +1,38 @@
 [
   {
+    "dia": 212,
+    "fecha": "2026-08-01",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'Guernica'?",
+        "opciones": [
+          "Pablo Picasso",
+          "Salvador Dalí",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santiago de Compostela es conocida por ser la ciudad con el mayor número de catedrales de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres un 'toro' en cultura española... todavía! 🐃🤣"
+  },
+  {
     "dia": 211,
     "fecha": "2026-07-31",
     "preguntas": [
