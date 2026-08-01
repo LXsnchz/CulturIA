@@ -1,5 +1,38 @@
 [
   {
+    "dia": 213,
+    "fecha": "2026-08-02",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La dama de Elche'?",
+        "opciones": [
+          "Velázquez",
+          "Goya",
+          "No se trata de un pintor"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Mérida es conocida por ser la capital de la Comunidad Autónoma de Extremadura",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'El amor en los tiempos del cólera' no, espera, ese es colombiano... ¿Cuál es el nombre del famoso escritor español que escribió 'La Casa de Bernarda Alba'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Federico García Lorca",
+          "Pablo Neruda"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres tonto, solo que la cultura te ha abandonado! 😂🤣"
+  },
+  {
     "dia": 212,
     "fecha": "2026-08-01",
     "preguntas": [
