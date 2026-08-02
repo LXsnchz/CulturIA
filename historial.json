@@ -1,5 +1,38 @@
 [
   {
+    "dia": 214,
+    "fecha": "2026-08-03",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso monumento español que se encuentra en la ciudad de Tarragona y es conocido por ser uno de los mejores ejemplos de arquitectura romana en España?",
+        "opciones": [
+          "El Coliseo",
+          "El Anfiteatro",
+          "El Circo Romano"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Santander es conocida por ser la capital de la Comunidad Autónoma de Cantabria",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Maja Desnuda'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Pobre diablo! 🤣 Has fallado, pero no te preocupes, todavía tienes tiempo para aprender sobre la cultura española 📚👏"
+  },
+  {
     "dia": 213,
     "fecha": "2026-08-02",
     "preguntas": [
