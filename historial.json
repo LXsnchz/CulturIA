@@ -1,5 +1,38 @@
 [
   {
+    "dia": 215,
+    "fecha": "2026-08-04",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'?",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Burgos es conocida por ser la ciudad con el mayor número de catedrales góticas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'Las meninas'?",
+        "opciones": [
+          "Francisco de Zurbarán",
+          "Diego Velázquez",
+          "Bartolomé Esteban Murillo"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que te has perdido en la meseta! 🗺️😂"
+  },
+  {
     "dia": 214,
     "fecha": "2026-08-03",
     "preguntas": [
