@@ -1,5 +1,38 @@
 [
   {
+    "dia": 216,
+    "fecha": "2026-08-05",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la ciudad de Benidorm?",
+        "opciones": [
+          "Festival de Música de Benidorm",
+          "Festival de Jazz de Valencia",
+          "Festival de Música de Alicante"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Zaragoza es conocida por ser la ciudad con el mayor número de ríos de España",
+        "opciones": [
+          "Verdadero",
+          "False"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La mujer barbuda'?",
+        "opciones": [
+          "El Greco",
+          "Diego Velázquez",
+          "Juan de Flandes"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de CulturIA en tu vida! 🤓📚😂"
+  },
+  {
     "dia": 215,
     "fecha": "2026-08-04",
     "preguntas": [
