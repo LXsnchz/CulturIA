@@ -1,5 +1,38 @@
 [
   {
+    "dia": 217,
+    "fecha": "2026-08-06",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La mujer con abanico'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Pablo Picasso",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Girona es conocida por ser la ciudad con el mayor número de puentes medievales de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La sombra del viento'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Carlos Ruiz Zafón",
+          "Gustavo Adolfo Bécquer"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que te has perdido en la biblioteca! 🤓📚😂"
+  },
+  {
     "dia": 216,
     "fecha": "2026-08-05",
     "preguntas": [
