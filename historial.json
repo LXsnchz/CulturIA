@@ -1,5 +1,38 @@
 [
   {
+    "dia": 218,
+    "fecha": "2026-08-07",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Disputa'",
+        "opciones": [
+          "Francisco de Goya",
+          "El Greco",
+          "Murillo"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Alicante es conocida por ser la ciudad con el mayor número de playas de la Costa Blanca",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que no has estudiado lo suficiente para el examen de CulturIA! 🤣📚"
+  },
+  {
     "dia": 217,
     "fecha": "2026-08-06",
     "preguntas": [
