@@ -1,5 +1,38 @@
 [
   {
+    "dia": 219,
+    "fecha": "2026-08-08",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El grito'",
+        "opciones": [
+          "Pablo Picasso",
+          "Francisco de Goya",
+          "Edvard Munch"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Barcelona es conocida por ser la ciudad con el mayor número de playas de la Costa Brava",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La colmena'",
+        "opciones": [
+          "Camilo José Cela",
+          "Miguel de Unamuno",
+          "Pío Baroja"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, no eres el único que no sabe! 😂🤦‍♂️"
+  },
+  {
     "dia": 218,
     "fecha": "2026-08-07",
     "preguntas": [
