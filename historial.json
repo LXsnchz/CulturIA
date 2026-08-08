@@ -1,5 +1,38 @@
 [
   {
+    "dia": 220,
+    "fecha": "2026-08-09",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La Trinidad'?",
+        "opciones": [
+          "Velázquez",
+          "El Greco",
+          "Murillo"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Córdoba es conocida por ser la ciudad con el mayor número de mezquitas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Regenta'?",
+        "opciones": [
+          "Leopoldo Alas",
+          "Benito Pérez Galdós",
+          "Emilia Pardo Bazán"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Eh, eh, eh! Parece que necesitas un poco de aceite de oliva para que te funcionen las neuronas 🥘😂"
+  },
+  {
     "dia": 219,
     "fecha": "2026-08-08",
     "preguntas": [
