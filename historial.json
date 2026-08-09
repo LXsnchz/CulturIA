@@ -1,5 +1,38 @@
 [
   {
+    "dia": 221,
+    "fecha": "2026-08-10",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El sueño de Jacob'?",
+        "opciones": [
+          "Velázquez",
+          "El Greco",
+          "Murillo"
+        ],
+        "respuesta_correcta": 2
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Lugo es conocida por ser la ciudad amurallada mejor conservada de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Ramón María del Valle-Inclán",
+          "Juan Ramón Jiménez"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco de aceite de oliva para lubricar tus neuronas! 🧠💡😂"
+  },
+  {
     "dia": 220,
     "fecha": "2026-08-09",
     "preguntas": [
