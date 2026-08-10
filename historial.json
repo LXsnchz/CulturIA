@@ -1,5 +1,38 @@
 [
   {
+    "dia": 222,
+    "fecha": "2026-08-11",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del río que atraviesa la ciudad de Sevilla?",
+        "opciones": [
+          "Río Guadalquivir",
+          "Río Tajo",
+          "Río Duero"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Salamanca es conocida por ser la ciudad con el mayor número de universidades de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso monumento español que se encuentra en la ciudad de Tarragona y es conocido por ser uno de los mejores ejemplos de arquitectura romana en España?",
+        "opciones": [
+          "Teatro Romano de Mérida",
+          "Anfiteatro de Tarragona",
+          "Acueducto de Segovia"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Pobre diablo! 😂🤦‍♂️ Parece que necesitas un poco más de CulturIA en tu vida... ¡Sigue intentándolo! 💪"
+  },
+  {
     "dia": 221,
     "fecha": "2026-08-10",
     "preguntas": [
