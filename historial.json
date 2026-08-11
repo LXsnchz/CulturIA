@@ -1,5 +1,38 @@
 [
   {
+    "dia": 223,
+    "fecha": "2026-08-12",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El cuadro de las meninas'?",
+        "opciones": [
+          "Velázquez",
+          "Goya",
+          "El Greco"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valladolid es conocida por ser la ciudad con el mayor número de puentes de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la ciudad de Vitoria?",
+        "opciones": [
+          "Festival de Jazz de Vitoria",
+          "Festival de Música de Cámara de Vitoria",
+          "Azkena Rock Festival"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que necesitas un poco más de CulturIA! 🤓📚😂"
+  },
+  {
     "dia": 222,
     "fecha": "2026-08-11",
     "preguntas": [
