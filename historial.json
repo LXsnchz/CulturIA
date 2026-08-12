@@ -1,5 +1,38 @@
 [
   {
+    "dia": 224,
+    "fecha": "2026-08-13",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'La luz de la luna'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de León es conocida por ser la ciudad con el mayor número de iglesias románicas de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la ciudad de Bilbao?",
+        "opciones": [
+          "BBK Live",
+          "Primavera Sound",
+          "Mad Cool"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que hoy no has estado 'en forma'! 🏋️‍♂️💪 No te preocupes, mañana es otro día 🌞😊"
+  },
+  {
     "dia": 223,
     "fecha": "2026-08-12",
     "preguntas": [
