@@ -1,5 +1,38 @@
 [
   {
+    "dia": 225,
+    "fecha": "2026-08-14",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en la isla de La Palma?",
+        "opciones": [
+          "Parque Nacional de la Caldera de Taburiente",
+          "Parque Nacional de Doñana",
+          "Parque Nacional de Ordesa y Monte Perdido"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Oviedo es conocida por ser la ciudad con el mayor número de esculturas medievales de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'La Sombra del Ciprés'",
+        "opciones": [
+          "Miguel de Unamuno",
+          "Pío Baroja",
+          "Miguel Hernández"
+        ],
+        "respuesta_correcta": 2
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has perdido en la meseta! 🌄😂 No te preocupes, sigue intentándolo, ¡que la cultura española no se va a aprender sola! 🤣"
+  },
+  {
     "dia": 224,
     "fecha": "2026-08-13",
     "preguntas": [
