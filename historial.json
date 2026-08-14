@@ -1,5 +1,38 @@
 [
   {
+    "dia": 226,
+    "fecha": "2026-08-15",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del pintor español que creó la obra 'El cuadro de las lavanderas'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Diego Velázquez",
+          "Joan Miró"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Segovia es conocida por ser la ciudad con el mayor número de acueductos romanos de España",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso escritor español que escribió 'Platero y yo'?",
+        "opciones": [
+          "Miguel de Cervantes",
+          "Juan Ramón Jiménez",
+          "Pablo Neruda"
+        ],
+        "respuesta_correcta": 1
+      }
+    ],
+    "mensaje_burla": "¡Vaya, parece que el cerebro se te ha ido de vacaciones! 🤣🌴 No te preocupes, siempre hay mañana... o no 🤔😂"
+  },
+  {
     "dia": 225,
     "fecha": "2026-08-14",
     "preguntas": [
