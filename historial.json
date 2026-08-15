@@ -1,5 +1,38 @@
 [
   {
+    "dia": 227,
+    "fecha": "2026-08-16",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso parque nacional español que se encuentra en los Pirineos?",
+        "opciones": [
+          "Ordesa y Monte Perdido",
+          "Doñana",
+          "Teide"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Valencia es conocida por ser la ciudad con el mayor número de playas de la Costa del Azahar",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso festival de música que se celebra en la ciudad de Madrid?",
+        "opciones": [
+          "Mad Cool",
+          "Primavera Sound",
+          "Bilbao BBK Live"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡No te preocupes, fallar es divertido! 😜🤦‍♂️"
+  },
+  {
     "dia": 226,
     "fecha": "2026-08-15",
     "preguntas": [
