@@ -1,5 +1,38 @@
 [
   {
+    "dia": 228,
+    "fecha": "2026-08-17",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre del famoso pintor español que creó la obra 'El jardín de las delicias terrenales'?",
+        "opciones": [
+          "Francisco de Goya",
+          "Hieronymus Bosch",
+          "Diego Velázquez"
+        ],
+        "respuesta_correcta": 1
+      },
+      {
+        "pregunta": "¿Verdadero o Falso? La ciudad de Málaga es conocida por ser la ciudad natal de Pablo Picasso",
+        "opciones": [
+          "Verdadero",
+          "Falso"
+        ],
+        "respuesta_correcta": 0
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del famoso monumento español que se encuentra en la ciudad de Segovia y es conocido por ser uno de los mejores ejemplos de arquitectura medieval en España?",
+        "opciones": [
+          "Alcázar de Segovia",
+          "Catedral de Santiago de Compostela",
+          "Mezquita de Córdoba"
+        ],
+        "respuesta_correcta": 0
+      }
+    ],
+    "mensaje_burla": "¡Parece que te has perdido en la península ibérica! 🗺️😂 No te preocupes, ¡todavía tienes tiempo de estudiar un poco! 📚👍"
+  },
+  {
     "dia": 227,
     "fecha": "2026-08-16",
     "preguntas": [
